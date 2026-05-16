@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: "neuroguIA Dataset"
+message: "If you use this dataset in academic research, publications, or derivative work, please cite it using the metadata below."
+type: dataset
+
+authors:
+  - family-names: "De León"
+    given-names: "Cristhianne"
+    orcid: "https://orcid.org/0009-0007-4777-1741"
+
+identifiers:
+  - type: url
+    value: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
+
+repository-code: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
+
+abstract: >
+  neuroguIA Dataset is an anonymized conversational AI dataset
+  designed for socioemotional support research in neurodivergent contexts.
+  The dataset includes conversational sessions, contextual memory structures,
+  semantic processing signals, adaptive conversational routing, and longitudinal
+  interaction data generated through a hybrid NLP and AI architecture.
+
+keywords:
+  - Artificial Intelligence
+  - Conversational AI
+  - Natural Language Processing
+  - NLP
+  - Neurodivergence
+  - Hybrid AI
+  - Contextual Memory
+  - Socioemotional Support
+  - Human-Centered AI
+  - Longitudinal Conversational Analysis
+
+license: "CC-BY-NC-4.0"
+
+version: "1.0"
+
+date-released: "2026-05-16"
+
+repository-artifact: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
+
+preferred-citation:
+  type: dataset
+  authors:
+    - family-names: "De León"
+      given-names: "Cristhianne"
+      orcid: "https://orcid.org/0009-0007-4777-1741"
+
+  title: "neuroguIA Dataset: Conversational AI Dataset for Socioemotional Support in Neurodivergent Contexts"
+
+  year: 2026
+
+  publisher: "GitHub"
+
+  url: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
