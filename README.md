@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner_neuroguIA.png" width="100%">
+</p>
+
 # 🧠 neuroguIA Dataset
 
 ### Conversational AI Dataset for Socioemotional Support in Neurodivergent Contexts
@@ -65,12 +69,36 @@ The conversational structure was designed to simulate realistic socioemotional s
 
 ---
 
+## 🏗️ Dataset Architecture
+
+<p align="center">
+  <img src="docs/dataset_architecture.png" width="100%">
+</p>
+
+---
+
+## 🧠 NLP Pipeline
+
+<p align="center">
+  <img src="docs/pipeline_nlp.png" width="100%">
+</p>
+
+---
+
+## 🧠 Contextual Memory
+
+<p align="center">
+  <img src="docs/contextual_memory.png" width="100%">
+</p>
+
+---
+
 ## 🗓️ Longitudinal Scope
 
 Dataset coverage:
 
 - Start date: January 6, 2026
-- End date: May 13, 2026
+- End date: May 31, 2026
 
 Includes:
 - short sessions
@@ -92,29 +120,6 @@ Examples of supported conversational contexts:
 - rigidity during transitions
 - contextual emotional support
 - adaptive routines and microactions
-
----
-
-## 🏗️ Dataset Structure
-
-```text
-neuroguIA-dataset/
-│
-├── dataset/
-│   ├── conversation_curation.csv
-│   ├── dataset_summary.json
-│   └── README_IMPORTACION.md
-│
-├── docs/
-│   ├── dataset_architecture.png
-│   ├── pipeline_nlp.png
-│   ├── contextual_memory.png
-│   └── variable_dictionary.md
-│
-├── LICENSE
-├── README.md
-└── CITATION.cff
-```
 
 ---
 
@@ -148,6 +153,29 @@ Includes:
 
 ---
 
+## 📁 Repository Structure
+
+```text
+neuroguIA-dataset/
+│
+├── dataset/
+│   ├── conversation_curation.csv
+│   ├── dataset_summary.json
+│   └── README_IMPORTACION.md
+│
+├── docs/
+│   ├── dataset_architecture.png
+│   ├── pipeline_nlp.png
+│   ├── contextual_memory.png
+│   └── variable_dictionary.md
+│
+├── LICENSE
+├── README.md
+└── CITATION.cff
+```
+
+---
+
 ## 🔒 Privacy & Ethical Considerations
 
 This dataset is fully anonymized.
@@ -176,10 +204,22 @@ The project focuses exclusively on socioemotional accompaniment and contextual s
 Research dataset currently under active development and expansion.
 
 Future versions may include:
+
 - additional conversational structures
 - improved semantic annotations
 - expanded contextual memory systems
 - refined conversational metadata
+
+---
+
+## 📚 Citation
+
+If you use this dataset in academic work, research, or publications, please provide appropriate attribution.
+
+Citation metadata is available through:
+
+- `CITATION.cff`
+- future Zenodo DOI releases
 
 ---
 
@@ -189,17 +229,6 @@ Future versions may include:
 M.Sc. Student in Artificial Intelligence
 
 ORCID: https://orcid.org/0009-0007-4777-1741
-
----
-
-## 📚 Citation
-
-If you use this dataset in academic work, research, or publications, please provide appropriate attribution.
-
-Citation metadata will be available through:
-
-- `CITATION.cff`
-- Zenodo DOI release (future release)
 
 ---
 
