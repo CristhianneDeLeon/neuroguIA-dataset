@@ -1,0 +1,21 @@
+{
+  "families": 281,
+  "profiles": 619,
+  "cases_sessions": 6463,
+  "learned_patterns": 1885,
+  "response_memory": 465,
+  "user_context_memory": 562,
+  "conversation_curation": 6463,
+  "routines": 1468,
+  "conversation_messages_supplemental": 47670,
+  "expected_sessions_per_family": 23,
+  "conversation_length_distribution": {
+    "short_sessions": 3625,
+    "long_sessions": 2838
+  },
+  "date_range": {
+    "start": "2026-01-06T08:00:00",
+    "end": "2026-05-31T21:00:00"
+  },
+  "notes": "Dataset estructurado para Supabase y análisis longitudinal."
+}
