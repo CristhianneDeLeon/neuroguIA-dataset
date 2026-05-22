@@ -1,0 +1,13 @@
+metric,value
+filas_originales,47670
+columnas_originales,12
+filas_limpias,47670
+familias_unicas,281
+perfiles_unicos_en_mensajes,281
+casos_sesiones_unicas,6463
+session_scope_id_unicos,6463
+mensajes_usuario,23835
+mensajes_asistente,23835
+detected_category_nulos_despues,0
+primary_state_nulos_despues,0
+message_text_vacios_corregidos,0
