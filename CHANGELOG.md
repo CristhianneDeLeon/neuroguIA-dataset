@@ -1,5 +1,48 @@
 # Changelog
 
+Todas las versiones relevantes del dataset de investigación neuroguIA
+se documentan en este archivo.
+
+El proyecto utiliza un esquema de versionado orientado a investigación,
+reproducibilidad y preservación académica.
+
+---
+
+## [2.0.0] - 2026-08-01
+
+### Consolidación final del dataset de investigación neuroguIA
+
+Esta versión reúne el paquete público consolidado utilizado para consulta,
+reproducibilidad, auditoría y preservación académica.
+
+### Contenido incorporado
+
+- Instrumentos y fuentes metodológicas del estudio.
+- Datos estructurados y archivos de importación para Supabase.
+- Resultados estadísticos, psicométricos y conversacionales.
+- Recursos utilizados por el dashboard científico.
+- Diccionario de datos, criterios instrumentales y documentación técnica.
+- Scripts de creación, carga, validación, seguridad y recuperación.
+- Manifiestos de integridad, procedencia y trazabilidad.
+- Conjunto consolidado de 562 participantes, 6,463 sesiones y 47,670 mensajes.
+
+### Organización del repositorio
+
+- `01_INSTRUMENTOS_Y_FUENTES`
+- `02_SUPABASE`
+- `03_ANALISIS`
+- `04_DASHBOARD`
+- `05_DOCUMENTACION`
+
+### Seguridad y privacidad
+
+- Datos anonimizados para investigación.
+- Exclusión de credenciales, secretos y respaldos internos.
+- Conservación de trazabilidad metodológica.
+- Validación de archivos destinados a publicación.
+
+---
+
 All notable changes to the **neuroguIA Dataset** project will be documented in this file.
 
 The format is inspired by:

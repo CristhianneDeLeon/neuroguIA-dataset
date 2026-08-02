@@ -35,10 +35,8 @@ keywords:
 
 license: "CC-BY-NC-4.0"
 
-version: "1.0"
-
-date-released: "2026-05-16"
-
+version: "2.0.0"
+date-released: "2026-08-01"
 repository-artifact: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
 
 preferred-citation:
