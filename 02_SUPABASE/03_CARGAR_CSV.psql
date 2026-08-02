@@ -1,0 +1,47 @@
+\set ON_ERROR_STOP on
+\echo 'Carga de los 19 CSV canónicos de neuroguIA'
+\echo 'Ejecute este archivo desde la carpeta 02_SUPABASE con psql.'
+
+begin;
+set local timezone = 'America/Mexico_City';
+
+\copy public.app_meta (meta_key,meta_value,created_at,updated_at) from '01_app_meta.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_families (family_id,unit_type,caregiver_alias,context_notes,support_network,environmental_factors,global_history,created_at,updated_at) from '02_ng_families.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_profiles (profile_id,family_id,alias,age,role,conditions,strengths,triggers,early_signs,helpful_strategies,harmful_strategies,sensory_needs,emotional_needs,autonomy_level,sleep_profile,school_profile,executive_profile,evolution_notes,is_active,created_at,updated_at) from '03_ng_profiles.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_case_memory (case_id,family_id,profile_id,unit_type,created_at,updated_at,raw_input,normalized_summary,detected_category,detected_stage,primary_state,secondary_states,emotional_intensity,caregiver_capacity,sensory_overload_risk,executive_block_risk,meltdown_risk,shutdown_risk,burnout_risk,sleep_disruption_risk,suggested_strategy,suggested_microaction,suggested_routine_type,response_mode,user_feedback,observed_result,usefulness_score,applied_successfully,helps_patterns,worsens_patterns,followup_needed,tags) from '04_ng_case_memory.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.conversation_messages_supplemental (message_id,case_id,family_id,profile_id,session_scope_id,speaker,turn_index,message_text,message_length_chars,detected_category,primary_state,created_at) from '05_conversation_messages_supplemental.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_messages (session_id,user_role,message,detected_category,emotional_state,profile_id,family_id,created_at) from '06_ng_messages.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_response_memory (response_id,family_id,profile_id,detected_intent,detected_category,primary_state,conversation_stage,complexity_signature,conditions_signature,response_text,response_structure_json,source_type,confidence_score,usefulness_score,approved_for_reuse,usage_count,success_count,failure_count,avoid_rules,must_include,supporting_patterns,tags,llm_prompt_version,origin_case_id,notes,is_active,created_at,updated_at) from '07_ng_response_memory.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_routines (routine_id,family_id,profile_id,routine_type,routine_name,goal,steps,short_version,adjustments,indicators,followup_question,source_case_id,is_active,created_at,updated_at) from '08_ng_routines.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_user_context_memory (scope_key,scope_type,family_id,profile_id,session_scope_id,inferred_user_role,role_confidence,role_source,conversation_preferences_json,recurrent_topics_json,recurrent_signals_json,helpful_strategies_json,helpful_routines_json,last_useful_domain,last_useful_phase,summary_snapshot_json,source_case_id,created_at,updated_at) from '09_ng_user_context_memory.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_learned_patterns (pattern_id,family_id,profile_id,context_key,helps,worsens,confidence_level,usage_count,last_seen,created_at,updated_at) from '10_ng_learned_patterns.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.ng_conversation_curation (curation_id,dedupe_key,scope_key,scope_type,family_id,profile_id,session_scope_id,source_case_id,review_status,candidate_targets_json,review_notes,input_summary_json,detected_category,detected_intent,primary_state,secondary_states_json,conversation_domain,conversation_phase,speaker_role,signal_summary_json,response_text,response_structure_json,response_mode,generation_source,provider,model,used_stub_fallback,fallback_reason,llm_enabled,llm_quality_score,llm_approved,metadata_json,created_at,updated_at) from '11_ng_conversation_curation.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.research_participants (participant_id,group_type,family_code,child_case_code,research_profile_code,role,age,sex,education,occupation,children_count,reported_context,cohabitation_time,internet_access,device_access,consent_status,data_scope,source_file) from '12_research_participants.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.research_prepost (participant_id,family_code,student_code,participant_type,relation_to_student,group_type,stress_pre,stress_post,stress_improvement,anxiety_pre,anxiety_post,anxiety_improvement,depression_pre,depression_post,depression_improvement,support_index_pre_raw_20_100,support_index_post_raw_20_100,support_pre_1_5,support_post_1_5,support_improvement_1_5,reported_sessions,reported_total_duration_min,reported_mean_session_duration_min,exposure_status,research_notes) from '13_research_prepost.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.research_whoqol_items (participant_id,group_type,family_id,payload) from '14_research_whoqol_items.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.research_instruments (instrument_id,instrument_name,instrument_type,items_or_fields,response_scale,moments,score_method,documented_reliability,source_file) from '15_research_instruments.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.research_instrument_items (instrument_id,item_code,domain,item_text,response_scale,reverse_scored) from '16_research_instrument_items.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.research_analysis_results (analysis_family,outcome,statistic,value,unit,source_file,calculated_at) from '17_research_analysis_results.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.research_provenance (source_file,source_sha256,source_size_bytes,source_role,provenance_basis,custodian) from '18_research_provenance.csv' with (format csv, header true, encoding 'UTF8')
+
+\copy public.research_transformations (step_id,output,source,operation,records_in,records_out,data_values_modified,responsible,date) from '19_research_transformations.csv' with (format csv, header true, encoding 'UTF8')
+
+commit;
+\echo 'Carga terminada. Continúe con 04_VALIDAR_CARGA.sql.'

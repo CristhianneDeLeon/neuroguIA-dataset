@@ -1,0 +1,14 @@
+﻿__pycache__/
+*.py[cod]
+*.log
+*.bak
+*.tmp
+.env
+.env.*
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+~$*
+02_SUPABASE/01_RESPALDO_BASE_ACTUAL.sql

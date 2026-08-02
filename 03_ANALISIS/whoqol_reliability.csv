@@ -1,0 +1,17 @@
+﻿instrument,domain,moment,group_type,n,items,cronbach_alpha,calculation_status
+WHOQOL-BREF,fisico,pre,Control,281,7,0.8261327669349416,recalculado_desde_reactivos
+WHOQOL-BREF,fisico,pre,Experimental,281,7,0.8009840207274932,recalculado_desde_reactivos
+WHOQOL-BREF,psicologico,pre,Control,281,6,0.8043044582883787,recalculado_desde_reactivos
+WHOQOL-BREF,psicologico,pre,Experimental,281,6,0.8055217358828798,recalculado_desde_reactivos
+WHOQOL-BREF,relaciones,pre,Control,281,3,0.6388401923177072,recalculado_desde_reactivos
+WHOQOL-BREF,relaciones,pre,Experimental,281,3,0.655685821224128,recalculado_desde_reactivos
+WHOQOL-BREF,entorno,pre,Control,281,8,0.8355867433394419,recalculado_desde_reactivos
+WHOQOL-BREF,entorno,pre,Experimental,281,8,0.846207982331066,recalculado_desde_reactivos
+WHOQOL-BREF,fisico,post,Control,281,7,0.8401874285944365,recalculado_desde_reactivos
+WHOQOL-BREF,fisico,post,Experimental,281,7,0.821431789880718,recalculado_desde_reactivos
+WHOQOL-BREF,psicologico,post,Control,281,6,0.8122997764233867,recalculado_desde_reactivos
+WHOQOL-BREF,psicologico,post,Experimental,281,6,0.8143873856197487,recalculado_desde_reactivos
+WHOQOL-BREF,relaciones,post,Control,281,3,0.7360392402664621,recalculado_desde_reactivos
+WHOQOL-BREF,relaciones,post,Experimental,281,3,0.6923198769007959,recalculado_desde_reactivos
+WHOQOL-BREF,entorno,post,Control,281,8,0.8573210369774271,recalculado_desde_reactivos
+WHOQOL-BREF,entorno,post,Experimental,281,8,0.8578774364923522,recalculado_desde_reactivos
