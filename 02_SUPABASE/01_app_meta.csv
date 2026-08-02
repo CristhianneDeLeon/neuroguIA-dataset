@@ -1,0 +1,7 @@
+﻿meta_key,meta_value,created_at,updated_at
+schema_version,"{""version"": ""1.0.0"", ""name"": ""neuroguia_research_operational""}",2026-04-16T00:27:24.915504,2026-07-24T00:00:00-06:00
+created_by,"{""author"": ""Cristhianne De León"", ""project"": ""neuroguIA"", ""institutional_scope"": ""investigación de tesis""}",2026-04-16T00:27:24.915529,2026-07-24T00:00:00-06:00
+data_provenance,"{""classification"": ""participant_collected_anonymized"", ""basis"": ""declaración de procedencia de la autora y archivos instrumentales suministrados"", ""custodian"": ""Cristhianne De León""}",2026-07-24T00:00:00-06:00,2026-07-24T00:00:00-06:00
+canonical_source_policy,"{""prepost"": ""evaluacion_prepost_neuroguIA.xlsx"", ""operations"": ""ng_case_memory.csv + conversation_messages_supplemental_clean.csv"", ""whoqol"": ""whoqol_bref_prepost_dominios_neuroguIA.xlsx""}",2026-07-24T00:00:00-06:00,2026-07-24T00:00:00-06:00
+profile_alias_policy,"{""type"": ""unique_anonymized_alias"", ""scope"": ""global_profile_registry"", ""case_sensitive"": false, ""conversation_mentions"": ""aligned_by_profile_id""}",2026-07-24T00:00:00-06:00,2026-07-24T00:00:00-06:00
+null_semantics_policy,"{""control_usage_metrics"": ""not_applicable"", ""caregiver_school_profile"": ""not_applicable"", ""family_scope_profile_id"": ""not_applicable"", ""session_scope_id"": ""null_when_scope_is_family_or_profile""}",2026-07-24T00:00:00-06:00,2026-07-24T00:00:00-06:00

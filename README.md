@@ -1,241 +1,38 @@
-<p align="center">
-  <img src="docs/banner_neuroguIA.png" width="100%">
-</p>
+# Datos de investigación de neuroguIA
 
-# 🧠 neuroguIA Dataset
+Responsable: Cristhianne De León
+Fecha de consolidación: 2026-08-01
 
-### Conversational AI Dataset for Socioemotional Support in Neurodivergent Contexts
+Este paquete reúne las bases operativas, los resultados de investigación, los instrumentos y los archivos para dashboard.
 
-![Dataset](https://img.shields.io/badge/Dataset-Conversational%20AI-blue)
-![Status](https://img.shields.io/badge/Status-Research%20Dataset-purple)
-![NLP](https://img.shields.io/badge/NLP-Hybrid-orange)
-![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-green)
+## Regla central
 
----
+- Los archivos de `01_INSTRUMENTOS_Y_FUENTES` conservan los instrumentos y bases de referencia.
+- Los CSV de `02_SUPABASE` son las tablas listas para importación.
+- Los archivos de `03_ANALISIS` contienen los resultados reproducibles.
+- El concentrado de `04_DASHBOARD` reúne la información requerida para visualización.
+- `05_DOCUMENTACION` conserva el diccionario, las fuentes y los controles de calidad.
+- `05_DOCUMENTACION/NeuroGuIA_Instrumentos_Criterios_Reporte.docx` fija la denominación, puntuación y uso metodológico de cada instrumento.
 
-## 📖 Overview
+## Supabase
 
-This repository contains the primary anonymized conversational datasets generated from **neuroguIA**, a hybrid conversational AI system designed to provide socioemotional and functional support in neurodivergent contexts.
+La carpeta `02_SUPABASE` incluye una migración completa y ordenada:
+diagnóstico, respaldo, archivo administrativo de registros no analíticos,
+creación del esquema, carga automática de los 19 CSV, validación, vistas de
+dashboard, seguridad RLS y verificación final.
 
-The dataset was created for academic research, conversational analysis, longitudinal evaluation, contextual memory experimentation, and Natural Language Processing (NLP) research.
+Comience siempre por `02_SUPABASE/00_LEEME_PRIMERO.md`. La carga fue probada
+de principio a fin con los 19 CSV y reproduce 562 participantes, 6,463 sesiones
+y 47,670 mensajes. Además, valida 619 alias de perfiles únicos, 92 reactivos o
+campos instrumentales y la semántica de los nulos no aplicables. Los 39 casos
+operativos que no forman parte del corpus analítico se conservan por separado
+en el esquema administrativo y no alimentan los indicadores.
 
----
+## Fuentes canónicas
 
-## 🎯 Research Purpose
+- Resultados pretest–postest: `evaluacion_prepost_neuroguIA.xlsx`.
+- Participantes y variables descriptivas: `master_input_dataset.xlsx`.
+- Operación conversacional: `ng_case_memory.csv` y `conversation_messages_supplemental_clean.csv`.
+- WHOQOL-BREF: `whoqol_bref_prepost_dominios_neuroguIA.xlsx`.
 
-The dataset supports research in:
-
-- Conversational AI
-- Natural Language Processing (NLP)
-- Hybrid AI Systems
-- Socioemotional Support Technologies
-- Neurodivergence Contexts
-- Human-Centered AI
-- Contextual Memory Systems
-- Adaptive Conversational Systems
-
----
-
-## 📊 Dataset Summary
-
-| Component | Records |
-|---|---|
-| Families / Units | 281 |
-| Profiles | 619 |
-| Sessions / Cases | 6,463 |
-| Learned Patterns | 1,885 |
-| Response Memory | 465 |
-| User Context Memory | 562 |
-| Conversational Curation | 6,463 |
-| Routines | 1,468 |
-| Supplemental Messages | 47,670 |
-
----
-
-## 🧠 Dataset Characteristics
-
-The dataset includes:
-
-- structured conversational sessions
-- conversational metadata
-- contextual memory signals
-- emotional and functional categories
-- semantic similarity information
-- adaptive response traces
-- longitudinal interaction tracking
-- supervised conversational curation
-
-The conversational structure was designed to simulate realistic socioemotional support interactions while preserving privacy and research integrity.
-
----
-
-## 🏗️ Dataset Architecture
-
-<p align="center">
-  <img src="docs/dataset_architecture.png" width="100%">
-</p>
-
----
-
-## 🧠 NLP Pipeline
-
-<p align="center">
-  <img src="docs/pipeline_nlp.png" width="100%">
-</p>
-
----
-
-## 🧠 Contextual Memory
-
-<p align="center">
-  <img src="docs/contextual_memory.png" width="100%">
-</p>
-
----
-
-## 🗓️ Longitudinal Scope
-
-Dataset coverage:
-
-- Start date: January 6, 2026
-- End date: May 31, 2026
-
-Includes:
-- short sessions
-- extended conversations
-- adaptive conversational flows
-- contextual follow-up interactions
-
----
-
-## 🧩 Main Topics Covered
-
-Examples of supported conversational contexts:
-
-- sensory overload
-- executive dysfunction
-- caregiver burnout
-- emotional saturation
-- sleep difficulties
-- rigidity during transitions
-- contextual emotional support
-- adaptive routines and microactions
-
----
-
-## ⚙️ Technical Design
-
-The dataset was generated through a hybrid AI architecture integrating:
-
-- rule-based conversational logic
-- TF-IDF + Logistic Regression
-- semantic embeddings
-- contextual memory systems
-- supervised response generation
-- conversational routing and curation
-- persistence and adaptive interaction tracking
-
----
-
-## 🗄️ Database Compatibility
-
-Designed for:
-
-- PostgreSQL
-- Supabase
-- SQLite
-
-Includes:
-- relational conversational structures
-- contextual memory persistence
-- JSON-compatible metadata
-- longitudinal interaction organization
-
----
-
-## 📁 Repository Structure
-
-```text
-neuroguIA-dataset/
-│
-├── dataset/
-│   ├── conversation_curation.csv
-│   ├── dataset_summary.json
-│   └── README_IMPORTACION.md
-│
-├── docs/
-│   ├── dataset_architecture.png
-│   ├── pipeline_nlp.png
-│   ├── contextual_memory.png
-│   └── variable_dictionary.md
-│
-├── LICENSE
-├── README.md
-└── CITATION.cff
-```
-
----
-
-## 🔒 Privacy & Ethical Considerations
-
-This dataset is fully anonymized.
-
-All personally identifiable information (PII) and sensitive user data were removed prior to publication and academic use.
-
-The dataset was designed exclusively for:
-
-- academic research
-- educational purposes
-- NLP experimentation
-- conversational AI analysis
-
----
-
-## ⚖️ Important Notice
-
-neuroguIA is not intended to replace medical, psychological, psychiatric, or therapeutic care.
-
-The project focuses exclusively on socioemotional accompaniment and contextual support in educational and family environments related to neurodivergence.
-
----
-
-## 🚧 Research Status
-
-Research dataset currently under active development and expansion.
-
-Future versions may include:
-
-- additional conversational structures
-- improved semantic annotations
-- expanded contextual memory systems
-- refined conversational metadata
-
----
-
-## 📚 Citation
-
-If you use this dataset in academic work, research, or publications, please provide appropriate attribution.
-
-Citation metadata is available through:
-
-- `CITATION.cff`
-- future Zenodo DOI releases
-
----
-
-## 👩‍💻 Author
-
-**Cristhianne De León**  
-M.Sc. Student in Artificial Intelligence
-
-ORCID: https://orcid.org/0009-0007-4777-1741
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20337423.svg)](https://doi.org/10.5281/zenodo.20337423)
-
----
-
-## 📄 License
-
-This project is distributed under the **CC BY-NC 4.0 License**.
-
-Academic and research use is permitted with proper attribution. Commercial use is prohibited without explicit authorization.
+Los registros conservan sus marcas temporales suministradas. Las columnas derivadas se identifican en el diccionario y en el registro de transformaciones.

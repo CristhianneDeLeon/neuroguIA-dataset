@@ -1,0 +1,2 @@
+﻿evaluation_type,random_seed,train_records,test_records,train_families,test_families,categories,unique_texts_total,accuracy,precision_macro,recall_macro,f1_macro,f1_weighted,roc_auc_macro_ovr,interpretation_status,performance_claim_status
+holdout_agrupado_por_familia,42,5152,1311,224,57,7,297,1.0,1.0,1.0,1.0,1.0,1.0,control_reproducible_pre_normalizacion_nominal,requiere_corpus_gold_humano_independiente

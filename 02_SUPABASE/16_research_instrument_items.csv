@@ -1,0 +1,93 @@
+﻿instrument_id,item_code,domain,item_text,response_scale,reverse_scored
+SOCIO14,SOCIO01,sociodemografico,Código de participante,mixta,False
+SOCIO14,SOCIO02,sociodemografico,Edad,mixta,False
+SOCIO14,SOCIO03,sociodemografico,Sexo,mixta,False
+SOCIO14,SOCIO04,sociodemografico,Parentesco con el estudiante,mixta,False
+SOCIO14,SOCIO05,sociodemografico,Escolaridad,mixta,False
+SOCIO14,SOCIO06,sociodemografico,Ocupación,mixta,False
+SOCIO14,SOCIO07,sociodemografico,Número de hijos,mixta,False
+SOCIO14,SOCIO08,sociodemografico,Diagnósticos asociados en el contexto familiar,mixta,False
+SOCIO14,SOCIO09,sociodemografico,Tiempo de convivencia diaria con el estudiante,mixta,False
+SOCIO14,SOCIO10,sociodemografico,Acceso tecnológico disponible en casa,mixta,False
+SOCIO14,SOCIO11,sociodemografico,Dispositivos utilizados frecuentemente,mixta,False
+SOCIO14,SOCIO12,sociodemografico,Acceso a internet,mixta,False
+SOCIO14,SOCIO13,sociodemografico,Zona de residencia,mixta,False
+SOCIO14,SOCIO14,sociodemografico,Tipo de participante (madre/padre/cuidador/docente),mixta,False
+DASS21_NG,A01,Ansiedad,Sentí miedo sin razón aparente.,0–3,False
+DASS21_NG,A02,Ansiedad,Experimenté sensación de preocupación intensa.,0–3,False
+DASS21_NG,A03,Ansiedad,Me costó controlar pensamientos ansiosos.,0–3,False
+DASS21_NG,A04,Ansiedad,Sentí inquietud física.,0–3,False
+DASS21_NG,A05,Ansiedad,Experimenté dificultad para tranquilizarme.,0–3,False
+DASS21_NG,A06,Ansiedad,Sentí temor ante situaciones cotidianas.,0–3,False
+DASS21_NG,A07,Ansiedad,Me sentí nervioso/a gran parte del tiempo.,0–3,False
+DASS21_NG,D01,Depresión,Me sentí sin motivación.,0–3,False
+DASS21_NG,D02,Depresión,Sentí poca esperanza.,0–3,False
+DASS21_NG,D03,Depresión,Me costó disfrutar actividades.,0–3,False
+DASS21_NG,D04,Depresión,Sentí cansancio emocional.,0–3,False
+DASS21_NG,D05,Depresión,Me sentí triste.,0–3,False
+DASS21_NG,D06,Depresión,Sentí baja energía.,0–3,False
+DASS21_NG,D07,Depresión,Me costó mantener interés en actividades.,0–3,False
+DASS21_NG,E01,Estrés,Me costó relajarme.,0–3,False
+DASS21_NG,E02,Estrés,Sentí que reaccionaba exageradamente.,0–3,False
+DASS21_NG,E03,Estrés,Me sentí irritable.,0–3,False
+DASS21_NG,E04,Estrés,Sentí tensión constante.,0–3,False
+DASS21_NG,E05,Estrés,Me sentí sobrecargado/a.,0–3,False
+DASS21_NG,E06,Estrés,Me costó tolerar interrupciones.,0–3,False
+DASS21_NG,E07,Estrés,Sentí dificultad para descansar mentalmente.,0–3,False
+APOYO10,PA01,apoyo_emocional,Me sentí acompañado/a emocionalmente.,1–5,False
+APOYO10,PA02,apoyo_emocional,Las respuestas fueron comprensibles.,1–5,False
+APOYO10,PA03,apoyo_emocional,Sentí validación emocional.,1–5,False
+APOYO10,PA04,apoyo_emocional,Las sugerencias fueron útiles.,1–5,False
+APOYO10,PA05,apoyo_emocional,La plataforma me ayudó a organizarme.,1–5,False
+APOYO10,PA06,apoyo_emocional,Me sentí menos saturado/a.,1–5,False
+APOYO10,PA07,apoyo_emocional,Sentí que la plataforma comprendía mi situación.,1–5,False
+APOYO10,PA08,apoyo_emocional,Me sentí escuchado/a.,1–5,False
+APOYO10,PA09,apoyo_emocional,Las estrategias propuestas fueron aplicables.,1–5,False
+APOYO10,PA10,apoyo_emocional,Consideraría volver a usar la plataforma.,1–5,False
+UTIL10,UT01,utilidad_tecnologica,La interfaz fue fácil de usar.,1–5,False
+UTIL10,UT02,utilidad_tecnologica,La navegación fue clara.,1–5,False
+UTIL10,UT03,utilidad_tecnologica,El sistema respondió rápidamente.,1–5,False
+UTIL10,UT04,utilidad_tecnologica,La experiencia fue cómoda.,1–5,False
+UTIL10,UT05,utilidad_tecnologica,Las respuestas parecieron personalizadas.,1–5,False
+UTIL10,UT06,utilidad_tecnologica,La plataforma fue accesible.,1–5,False
+UTIL10,UT07,utilidad_tecnologica,El sistema resultó intuitivo.,1–5,False
+UTIL10,UT08,utilidad_tecnologica,Me sentí seguro/a utilizando la plataforma.,1–5,False
+UTIL10,UT09,utilidad_tecnologica,Recomendaría el sistema.,1–5,False
+UTIL10,UT10,utilidad_tecnologica,La experiencia general fue positiva.,1–5,False
+PRE5,PRE01,estres_percibido,¿Cómo describiría su nivel actual de estrés?,mixta_abierta,False
+PRE5,PRE02,saturacion_emocional,¿Con qué frecuencia se siente saturado/a emocionalmente?,mixta_abierta,False
+PRE5,PRE03,expectativas,¿Qué espera obtener del uso de neuroguIA?,mixta_abierta,False
+PRE5,PRE04,apoyo_emocional,¿Cuenta actualmente con apoyo emocional suficiente?,mixta_abierta,False
+PRE5,PRE05,areas_dificiles,¿Qué áreas considera más difíciles actualmente?,mixta_abierta,False
+POST5,POST01,ayuda_emocional,¿Considera que neuroguIA le ayudó emocionalmente?,mixta_abierta,False
+POST5,POST02,reduccion_saturacion,¿Disminuyó su sensación de saturación?,mixta_abierta,False
+POST5,POST03,experiencia_general,¿Cómo evaluaría la experiencia general con la plataforma?,mixta_abierta,False
+POST5,POST04,intencion_reuso,¿Volvería a utilizar neuroguIA?,mixta_abierta,False
+POST5,POST05,recomendacion,¿Recomendaría la plataforma a otras familias o docentes?,mixta_abierta,False
+WHOQOL26,Q1,general,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q10,fisico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q11,psicologico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q12,entorno,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q13,entorno,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q14,entorno,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q15,fisico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q16,fisico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q17,fisico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q18,fisico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q19,psicologico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q2,general,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q20,relaciones,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q21,relaciones,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q22,relaciones,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q23,entorno,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q24,entorno,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q25,entorno,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q26,psicologico,Texto oficial no reproducido en la base; código conservado,1–5,True
+WHOQOL26,Q3,fisico,Texto oficial no reproducido en la base; código conservado,1–5,True
+WHOQOL26,Q4,fisico,Texto oficial no reproducido en la base; código conservado,1–5,True
+WHOQOL26,Q5,psicologico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q6,psicologico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q7,psicologico,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q8,entorno,Texto oficial no reproducido en la base; código conservado,1–5,False
+WHOQOL26,Q9,entorno,Texto oficial no reproducido en la base; código conservado,1–5,False
+APOYO_IDX,APOYO_TOTAL,percepcion_apoyo,Puntuación agregada registrada de percepción de apoyo (valor bruto 20–100).,20–100,False
