@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "neuroguIA Dataset"
-message: "If you use this dataset in academic research, publications, or derivative work, please cite it using the metadata below."
+message: "If you use this dataset in academic research, publications, or derivative work, please cite the archived version using the metadata below."
 type: dataset
 
 authors:
@@ -8,36 +8,47 @@ authors:
     given-names: "Cristhianne"
     orcid: "https://orcid.org/0009-0007-4777-1741"
 
-identifiers:
-  - type: url
-    value: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
-
-repository-code: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
-
 abstract: >
-  neuroguIA Dataset is an anonymized conversational AI dataset
-  designed for socioemotional support research in neurodivergent contexts.
-  The dataset includes conversational sessions, contextual memory structures,
-  semantic processing signals, adaptive conversational routing, and longitudinal
-  interaction data generated through a hybrid NLP and AI architecture.
+  neuroguIA Dataset is an anonymized conversational artificial intelligence
+  dataset designed for socioemotional support research in neurodivergent
+  contexts. The dataset includes research instruments, conversational sessions,
+  contextual memory structures, semantic processing signals, adaptive
+  conversational routing, psychometric results, longitudinal interaction data,
+  analytical resources, and structured files prepared for PostgreSQL and
+  Supabase.
 
 keywords:
-  - Artificial Intelligence
-  - Conversational AI
-  - Natural Language Processing
-  - NLP
-  - Neurodivergence
-  - Hybrid AI
-  - Contextual Memory
-  - Socioemotional Support
-  - Human-Centered AI
-  - Longitudinal Conversational Analysis
+  - "Artificial Intelligence"
+  - "Conversational AI"
+  - "Natural Language Processing"
+  - "NLP"
+  - "Neurodivergence"
+  - "Hybrid AI"
+  - "Contextual Memory"
+  - "Socioemotional Support"
+  - "Human-Centered AI"
+  - "Longitudinal Conversational Analysis"
+  - "Research Dataset"
+  - "Supabase"
 
 license: "CC-BY-NC-4.0"
-
 version: "2.0.0"
-date-released: "2026-08-01"
-repository-artifact: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
+date-released: "2026-08-02"
+doi: "10.5281/zenodo.21755820"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21755820"
+    description: "Version-specific DOI for neuroguIA Dataset v2.0.0."
+  - type: doi
+    value: "10.5281/zenodo.20337422"
+    description: "Concept DOI representing all published versions of neuroguIA Dataset."
+  - type: url
+    value: "https://github.com/CristhianneDeLeon/neuroguIA-dataset/releases/tag/v2.0.0"
+    description: "GitHub release corresponding to version 2.0.0."
+
+repository-code: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
+url: "https://doi.org/10.5281/zenodo.21755820"
 
 preferred-citation:
   type: dataset
@@ -45,11 +56,10 @@ preferred-citation:
     - family-names: "De León"
       given-names: "Cristhianne"
       orcid: "https://orcid.org/0009-0007-4777-1741"
-
   title: "neuroguIA Dataset: Conversational AI Dataset for Socioemotional Support in Neurodivergent Contexts"
-
+  version: "2.0.0"
   year: 2026
-
-  publisher: "GitHub"
-
-  url: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
+  date-released: "2026-08-02"
+  publisher: "Zenodo"
+  doi: "10.5281/zenodo.21755820"
+  url: "https://doi.org/10.5281/zenodo.21755820"
