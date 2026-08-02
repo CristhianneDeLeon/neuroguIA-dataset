@@ -36,3 +36,19 @@ en el esquema administrativo y no alimentan los indicadores.
 - WHOQOL-BREF: `whoqol_bref_prepost_dominios_neuroguIA.xlsx`.
 
 Los registros conservan sus marcas temporales suministradas. Las columnas derivadas se identifican en el diccionario y en el registro de transformaciones.
+
+## DOI y citación
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20337422.svg)](https://doi.org/10.5281/zenodo.20337422)
+
+La versión consolidada del dataset se encuentra preservada en Zenodo:
+
+- **Versión publicada:** `v2.0.0`
+- **DOI específico de la versión:** [10.5281/zenodo.21755820](https://doi.org/10.5281/zenodo.21755820)
+- **DOI general del conjunto:** [10.5281/zenodo.20337422](https://doi.org/10.5281/zenodo.20337422)
+- **Tipo de recurso:** Dataset
+- **Licencia:** CC BY-NC 4.0
+- **Autora:** Cristhianne De León
+- **ORCID:** [0009-0007-4777-1741](https://orcid.org/0009-0007-4777-1741)
+
+Para investigaciones, publicaciones o análisis derivados, debe citarse el DOI específico de la versión utilizada.
