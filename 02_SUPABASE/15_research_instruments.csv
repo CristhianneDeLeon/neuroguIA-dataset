@@ -1,9 +1,0 @@
-﻿instrument_id,instrument_name,instrument_type,items_or_fields,response_scale,moments,score_method,documented_reliability,source_file
-SOCIO14,Ficha sociodemográfica,ficha_descriptiva,14.0,mixta,línea_base,no_aplica,no_aplica,02_Instrumento_Sociodemografico.docx
-DASS21_NG,DASS-21 adaptado a neuroguIA,escala_adaptada,21.0,0–3,pretest_postest,suma de 7 reactivos por subescala; rango 0–21; sin multiplicación por 2 en la base,pendiente_respuestas_por_reactivo,03_DASS21_Adaptado.docx
-APOYO10,Escala de percepción de apoyo emocional,cuestionario_propio,10.0,Likert 1–5,postest,promedio de reactivos; rango 1–5,pendiente_respuestas_por_reactivo,04_Escala_Apoyo_Emocional.docx
-UTIL10,Escala de utilidad tecnológica,cuestionario_propio,10.0,Likert 1–5,postest,promedio de reactivos; rango 1–5,pendiente_respuestas_por_reactivo,05_Escala_Utilidad_Tecnologica.docx
-PRE5,Pretest descriptivo neuroguIA,guia_descriptiva,5.0,mixta_abierta,pretest,análisis_descriptivo,no_aplica,06_Pretest_neuroguIA.docx
-POST5,Postest descriptivo neuroguIA,guia_descriptiva,5.0,mixta_abierta,postest,análisis_descriptivo,no_aplica,07_Posttest_neuroguIA.docx
-WHOQOL26,WHOQOL-BREF,instrumento_estandarizado,26.0,Likert 1–5,pretest_postest,dominios 4–20 transformados a 0–100; índice global descriptivo = media de cuatro dominios,recalculada_por_dominio,whoqol_bref_prepost_dominios_neuroguIA.xlsx
-APOYO_IDX,Índice pretest–postest de percepción de apoyo,indice_registrado,1.0,20–100 y transformación /20 a 1–5,pretest_postest,valor_bruto_dividido_entre_20,no_calculable_sin_reactivos,evaluacion_prepost_neuroguIA.xlsx
