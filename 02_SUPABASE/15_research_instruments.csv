@@ -1,0 +1,11 @@
+﻿instrument_or_measure,code,type,items_or_structure,construct_or_role,application,public_evidence,methodological_note
+Sociodemográfico,SOCIO14,Instrumento de caracterización,14 campos,Caracterización y variables de control,Línea base; ambos grupos,Descriptivos sociodemográficos agregados,La versión pública reporta resultados agregados.
+DASS-21 contextualizado,DASS21,Instrumento estandarizado,21 reactivos,Estrés principal; ansiedad y depresión exploratorias,Pretest y postest; ambos grupos,"Descriptivos pre/post, ANCOVA, pruebas complementarias y tamaños del efecto",Las salidas públicas se reportan por dimensión y grupo.
+MSPSS,MSPSS12,Instrumento estandarizado,12 reactivos,Apoyo social percibido,Pretest y postest; ambos grupos,Resultado oficial agregado pre/post,Se mantiene separado del índice auxiliar de apoyo.
+Índice auxiliar de apoyo,APOYO_AUX,Indicador auxiliar,Puntuación de 1 a 5,Apoyo percibido para análisis secundarios,Pretest y postest; ambos grupos,Resultados agregados y análisis ajustados,No corresponde ni se denomina MSPSS.
+WHOQOL-BREF,WHOQOL26,Instrumento estandarizado,26 reactivos; cuatro dominios,Calidad de vida,Pretest y postest; ambos grupos,"Descriptivos por dominio, índice global descriptivo y ANCOVA",Los dominios se expresan en escala 0–100.
+EUA-neuroguIA,UTIL10,Instrumento propio,10 reactivos Likert 1–5,Usabilidad y aceptabilidad,Postest; grupo experimental,Puntaje agregado descriptivo,Instrumento de experiencia de uso.
+EEP-neuroguIA,APOYO10,Instrumento propio,10 reactivos Likert 1–5,Empatía percibida y acompañamiento,Postest; grupo experimental,Estructura y función metodológica documentadas,Se conserva como instrumento complementario de implementación.
+EAPC-neuroguIA,EAPC12,Instrumento propio,12 reactivos Likert 1–5,Accesibilidad y pertinencia cultural,Postest; grupo experimental,Estructura y función metodológica documentadas,Se conserva como instrumento complementario de implementación.
+Pretest descriptivo,PRE5,Guía descriptiva,5 campos,Condiciones y expectativas iniciales,Pretest; grupo experimental,Indicadores descriptivos agregados,No se interpreta como escala psicométrica unidimensional.
+Postest descriptivo,POST5,Guía descriptiva,5 campos,Experiencia final y continuidad,Postest; grupo experimental,Indicadores descriptivos agregados,No se interpreta como escala psicométrica unidimensional.
