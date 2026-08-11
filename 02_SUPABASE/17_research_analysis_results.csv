@@ -1,0 +1,328 @@
+﻿analysis_family,outcome,statistic,value,unit,source_file,calculated_at
+dass21_descriptive,Estrés::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Experimental,pre_mean,17.88612099644128,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Experimental,pre_sd,5.597306709444577,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Experimental,post_mean,12.455516014234876,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Experimental,post_sd,6.114880547302489,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Experimental,favorable_change_mean,5.430604982206406,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Experimental,favorable_change_percent,30.362116991643457,porcentaje,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Control,n,281,participantes,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Control,pre_mean,17.98220640569395,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Control,pre_sd,5.808525455873485,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Control,post_mean,18.160142348754448,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Control,post_sd,6.0017240363278885,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Control,favorable_change_mean,-0.17793594306049823,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Estrés::Control,favorable_change_percent,-0.9895111814763506,porcentaje,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Experimental,pre_mean,12.822064056939501,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Experimental,pre_sd,5.212314814403817,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Experimental,post_mean,8.832740213523131,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Experimental,post_sd,5.34627333156858,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Experimental,favorable_change_mean,3.9893238434163703,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Experimental,favorable_change_percent,31.112961421038026,porcentaje,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Control,n,281,participantes,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Control,pre_mean,12.825622775800712,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Control,pre_sd,5.035749169691719,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Control,post_mean,12.95373665480427,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Control,post_sd,5.185280876988132,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Control,favorable_change_mean,-0.12811387900355872,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Ansiedad::Control,favorable_change_percent,-0.9988901220865706,porcentaje,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Experimental,pre_mean,12.519572953736654,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Experimental,pre_sd,5.311759981653392,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Experimental,post_mean,8.807829181494663,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Experimental,post_sd,5.405560224634021,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Experimental,favorable_change_mean,3.711743772241993,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Experimental,favorable_change_percent,29.647527003979533,porcentaje,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Control,n,281,participantes,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Control,pre_mean,12.533807829181494,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Control,pre_sd,5.377176909873929,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Control,post_mean,12.633451957295375,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Control,post_sd,5.417315344470328,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Control,favorable_change_mean,-0.099644128113879,0-21,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+dass21_descriptive,Depresión::Control,favorable_change_percent,-0.7950028392958546,porcentaje,Documento Maestro Oficial auditado / M06_DASS_RESUMEN,2026-08-11
+mspss_official_aggregate,MSPSS::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Experimental,pre_mean,2.69,1-5,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Experimental,post_mean,4.48,1-5,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Experimental,change_mean,1.79,1-5,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Experimental,change_percent,66.44,porcentaje,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Control,n,281,participantes,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Control,pre_mean,2.69,1-5,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Control,post_mean,2.73,1-5,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Control,change_mean,0.04,1-5,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+mspss_official_aggregate,MSPSS::Control,change_percent,1.49,porcentaje,Documento Maestro Oficial auditado / M09_MSPSS_OFICIAL,2026-08-11
+whoqol_descriptive,Físico::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Experimental,pre_mean,54.25775292323337,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Experimental,pre_sd,12.550232115666319,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Experimental,post_mean,61.502287747839276,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Experimental,post_sd,13.590078962435927,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Experimental,change_mean,7.244534824605907,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Experimental,change_percent,13.35207308503145,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Control,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Control,pre_mean,55.36349771225218,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Control,pre_sd,13.455210480086286,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Control,post_mean,56.55821047280119,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Control,post_sd,13.901841421922,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Control,change_mean,1.1947127605490095,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Físico::Control,change_percent,2.157943067033885,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Experimental,pre_mean,48.813760379596694,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Experimental,pre_sd,13.750054561779057,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Experimental,post_mean,62.277580071174405,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Experimental,post_sd,14.068725007241374,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Experimental,change_mean,13.463819691577712,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Experimental,change_percent,27.582017010935616,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Control,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Control,pre_mean,49.540332147093736,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Control,pre_sd,13.791379095275484,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Control,post_mean,49.76275207591936,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Control,post_sd,13.686471585566546,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Control,change_mean,0.222419928825623,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Psicológico::Control,change_percent,0.4489673750374142,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Experimental,pre_mean,45.52194543297748,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Experimental,pre_sd,13.87173430792669,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Experimental,post_mean,62.099644128113866,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Experimental,post_sd,15.29797799793436,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Experimental,change_mean,16.577698695136384,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Experimental,change_percent,36.4169381107491,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Control,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Control,pre_mean,46.559905100830356,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Control,pre_sd,14.261881351122724,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Control,post_mean,47.21233689205217,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Control,post_sd,15.562814031879324,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Control,change_mean,0.6524317912218152,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Relaciones::Control,change_percent,1.401273885350294,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Experimental,pre_mean,52.3020462633452,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Experimental,pre_sd,13.129400377777912,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Experimental,post_mean,61.020907473309606,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Experimental,post_sd,13.829984769591123,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Experimental,change_mean,8.718861209964409,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Experimental,change_percent,16.670210503933653,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Control,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Control,pre_mean,50.244661921708186,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Control,pre_sd,12.979472734844839,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Control,post_mean,51.96841637010676,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Control,post_sd,13.937325952825468,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Control,change_mean,1.723754448398573,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Entorno::Control,change_percent,3.4307215582115904,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Experimental,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Experimental,pre_mean,50.22387624978811,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Experimental,pre_sd,6.794226520037543,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Experimental,post_mean,61.72510485510935,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Experimental,post_sd,7.3295629513719724,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Experimental,change_mean,11.501228605321238,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Experimental,change_percent,22.89992223642786,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Control,n,281,participantes,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Control,pre_mean,50.42709922047108,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Control,pre_sd,6.897309726619921,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Control,post_mean,51.37542895271987,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Control,post_sd,7.179054277407773,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Control,change_mean,0.9483297322487942,0-100,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+whoqol_descriptive,Global descriptivo::Control,change_percent,1.8805954475045752,porcentaje,Documento Maestro Oficial auditado / M12_WHOQOL_RESUMEN,2026-08-11
+ancova_hc3,Estrés,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,adjusted_group_difference_exp_minus_control,-5.607469754930899,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,se_hc3,0.15703848883035276,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,ci95_low,-5.915259537224986,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,ci95_high,-5.299679972636812,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,p_group,3.0115389491134603e-279,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,baseline_coefficient,1.0111481060876857,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,r2,0.9232825841600778,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,adjusted_r2,0.9230081032447293,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,group_x_pre_interaction,0.018341024036986356,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Estrés,p_interaction,0.5019591385299775,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,adjusted_group_difference_exp_minus_control,-4.117539635448806,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,se_hc3,0.14551615205185403,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,ci95_low,-4.402746052639294,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,ci95_high,-3.8323332182583183,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,p_group,3.8596229985326174e-176,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,baseline_coefficient,0.9713624388553683,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,r2,0.907672088730398,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,adjusted_r2,0.9073417563108287,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,group_x_pre_interaction,-0.034476895399055886,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Ansiedad,p_interaction,0.21519746686280683,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,adjusted_group_difference_exp_minus_control,-3.8117999517388994,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,se_hc3,0.12976249012619218,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,ci95_low,-4.066129758930471,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,ci95_high,-3.5574701445473282,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,p_group,1.1389472081731983e-189,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,baseline_coefficient,0.971053390334281,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,r2,0.9287213230575412,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,adjusted_r2,0.9284663009575682,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,group_x_pre_interaction,-0.004852686478825544,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Depresión,p_interaction,0.8421656496346821,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,adjusted_group_difference_exp_minus_control,0.6809298594558612,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,se_hc3,0.016168327494992567,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,ci95_low,0.649240519875427,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,ci95_high,0.7126191990362953,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,p_group,0,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,baseline_coefficient,0.9908321127251586,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,r2,0.940101727713068,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,adjusted_r2,0.9398874226243848,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,group_x_pre_interaction,-0.04910075130226454,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,Apoyo auxiliar 1-5,p_interaction,0.03275414401082949,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,adjusted_group_difference_exp_minus_control,5.841121839555758,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,se_hc3,0.7426083856802725,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,ci95_low,4.385636149004993,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,ci95_high,7.296607530106522,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,p_group,3.6709028619078286e-15,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,baseline_coefficient,0.8112582337494172,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,r2,0.6024327844900028,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,adjusted_r2,0.6010103615364787,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,group_x_pre_interaction,-0.017274048405444397,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Físico,p_interaction,0.7676763333613208,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,adjusted_group_difference_exp_minus_control,13.064075910949581,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,se_hc3,0.7793814110951883,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,ci95_low,11.536516414983007,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,ci95_high,14.591635406916156,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,p_group,4.6194563081081306e-63,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,baseline_coefficient,0.7559444782531293,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,r2,0.6366923977554615,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,adjusted_r2,0.6353925494468943,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,group_x_pre_interaction,-0.06233027128340633,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Psicológico,p_interaction,0.2830766341923243,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,adjusted_group_difference_exp_minus_control,15.595188378824092,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,se_hc3,1.022016232037064,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,ci95_low,13.592073372416117,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,ci95_high,17.598303385232068,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,p_group,1.4290856776570226e-52,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,baseline_coefficient,0.6819929181123278,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,r2,0.5027163316492911,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,adjusted_r2,0.5009371414226338,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,group_x_pre_interaction,-0.1226124383778528,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Relaciones,p_interaction,0.0820051078223653,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,adjusted_group_difference_exp_minus_control,7.377555759561619,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,se_hc3,0.7591890201018284,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,ci95_low,5.88957262270378,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,ci95_high,8.865538896419459,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,p_group,2.5349179568801204e-22,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,baseline_coefficient,0.8141091140555109,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,r2,0.625882659803829,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,adjusted_r2,0.6245441362253096,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,group_x_pre_interaction,-0.06622087887363501,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Entorno,p_interaction,0.24991282128095704,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,n,562,participantes,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,adjusted_group_difference_exp_minus_control,10.506787171950199,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,se_hc3,0.4201838685723466,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,ci95_low,9.683241922663688,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,ci95_high,11.33033242123671,escala_del_resultado,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,p_group,5.3651978264695367e-138,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,baseline_coefficient,0.7730979870643894,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,r2,0.6903468814509929,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,adjusted_r2,0.6892389990948247,proporcion,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,group_x_pre_interaction,-0.0020467807064128846,coeficiente,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+ancova_hc3,WHOQOL Global descriptivo,p_interaction,0.9718592203331587,probabilidad,Documento Maestro Oficial auditado / M07_ANCOVA,2026-08-11
+effect_size_post,Estrés,cohen_d_post_exp_minus_control,-0.9415802163824863,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Estrés,hedges_g_post_exp_minus_control,-0.9403186082319068,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Estrés,ci95_low,-1.123042834821061,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Estrés,ci95_high,-0.7630903112343459,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Ansiedad,cohen_d_post_exp_minus_control,-0.7825084392616272,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Ansiedad,hedges_g_post_exp_minus_control,-0.7814599688204549,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Ansiedad,ci95_low,-0.9446857031917892,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Ansiedad,ci95_high,-0.6242363353043491,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Depresión,cohen_d_post_exp_minus_control,-0.7069508458906163,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Depresión,hedges_g_post_exp_minus_control,-0.7060036138505663,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Depresión,ci95_low,-0.875301109317348,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Depresión,ci95_high,-0.5390531110492294,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Apoyo auxiliar 1-5,cohen_d_post_exp_minus_control,0.964518181544672,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Apoyo auxiliar 1-5,hedges_g_post_exp_minus_control,0.9632258391844066,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Apoyo auxiliar 1-5,ci95_low,0.7989574745566421,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,Apoyo auxiliar 1-5,ci95_high,1.136260930014723,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Físico,cohen_d_post_exp_minus_control,0.3596518056913805,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Físico,hedges_g_post_exp_minus_control,0.35916991403569754,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Físico,ci95_low,0.20753312969509471,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Físico,ci95_high,0.5342160339509785,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Psicológico,cohen_d_post_exp_minus_control,0.9017151967306244,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Psicológico,hedges_g_post_exp_minus_control,0.900507003077122,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Psicológico,ci95_low,0.7338156222626107,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Psicológico,ci95_high,1.066828333664745,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Relaciones,cohen_d_post_exp_minus_control,0.9647684393964615,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Relaciones,hedges_g_post_exp_minus_control,0.9634757617197356,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Relaciones,ci95_low,0.7975368716524206,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Relaciones,ci95_high,1.1384423660061813,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Entorno,cohen_d_post_exp_minus_control,0.652020179736801,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Entorno,hedges_g_post_exp_minus_control,0.6511465484106687,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Entorno,ci95_low,0.5024626119551845,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Entorno,ci95_high,0.8269008145766169,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Global descriptivo,cohen_d_post_exp_minus_control,1.4266168713751894,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Global descriptivo,hedges_g_post_exp_minus_control,1.4247053704309618,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Global descriptivo,ci95_low,1.2710859808528119,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+effect_size_post,WHOQOL Global descriptivo,ci95_high,1.5981214001676902,desviaciones_estandar,Documento Maestro Oficial auditado / M08_EFECTOS,2026-08-11
+usage_correlation,messages::Muestra total,spearman_rho,0.7915693837592621,coeficiente,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,messages::Muestra total,p_value,6.971791127718677e-122,probabilidad,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,messages::Muestra total,n,562,participantes,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,messages::Muestra total,unique_predictor_values,48,conteo,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,weeks::Muestra total,spearman_rho,0.7903255892014611,coeficiente,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,weeks::Muestra total,p_value,3.0413684700926785e-121,probabilidad,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,weeks::Muestra total,n,562,participantes,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,weeks::Muestra total,unique_predictor_values,17,conteo,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,messages::Solo experimental,spearman_rho,0.020836482283239494,coeficiente,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,messages::Solo experimental,p_value,0.7280174945391318,probabilidad,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,messages::Solo experimental,n,281,participantes,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,messages::Solo experimental,unique_predictor_values,47,conteo,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,weeks::Solo experimental,spearman_rho,0.001896030189635111,coeficiente,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,weeks::Solo experimental,p_value,0.9747578591393727,probabilidad,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,weeks::Solo experimental,n,281,participantes,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_correlation,weeks::Solo experimental,unique_predictor_values,16,conteo,Documento Maestro Oficial auditado / M14C_CORRELACIONES,2026-08-11
+usage_regression,Intercepto,coefficient,5.3269411257401025,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Intercepto,standard_error,1.2258798468024465,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Intercepto,t_value,2.924260776633828,estadistico,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Intercepto,p_value,7.729621474846377,probabilidad,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Mensajes,coefficient,0.002953782018334009,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Mensajes,standard_error,0.005961252091570321,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Mensajes,t_value,-0.008730057383907888,estadistico,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Mensajes,p_value,0.014637621420575907,probabilidad,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Continuidad semanas/18,coefficient,0.008305851355958356,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Continuidad semanas/18,standard_error,0.4965086950627898,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Continuidad semanas/18,t_value,-0.9648333089780897,estadistico,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Continuidad semanas/18,p_value,0.9814450116900065,probabilidad,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Estrés basal,coefficient,-0.021334190139844472,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Estrés basal,standard_error,0.02346484870463145,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Estrés basal,t_value,-0.06732444850360345,estadistico,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Estrés basal,p_value,0.024656068223914508,probabilidad,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Edad,coefficient,-0.0004245430427740121,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Edad,standard_error,0.01131291471338799,coeficiente,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Edad,t_value,-0.022597448441187742,estadistico,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression,Edad,p_value,0.021748362355639716,probabilidad,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression_model,stress_improvement,N,281,modelo,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression_model,stress_improvement,R²,0.0036188464341357918,modelo,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression_model,stress_improvement,R² ajustado,-0.010821460139282646,modelo,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_regression_model,stress_improvement,Covarianza,HC3,modelo,Documento Maestro Oficial auditado / M14D_REGRESION_USO,2026-08-11
+usage_official,neuroguIA,Participantes con uso vinculado,281,personas,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Sesiones técnicas totales,6463,sesiones,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Mensajes técnicos totales,47670,mensajes,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Duración técnica media,6.3758,minutos,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Sesiones en 18 semanas,1325,sesiones,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Sesiones postest/cierre,209,sesiones,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Sesiones antes de intervención,15,sesiones,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Sesiones posteriores al cierre,4914,sesiones,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Sesiones fuera de ventana activa,5138,sesiones,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Engagement histórico,58.5,0–100,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+usage_official,neuroguIA,Continuidad histórica,36.26,0–100,Documento Maestro Oficial auditado / M14_USO_OFICIAL,2026-08-11
+nlp_summary,Histórico de tesis,records,1020,registros,Documento Maestro Oficial auditado / M17_PLN_OFICIAL,2026-08-11
+nlp_summary,Histórico de tesis,categories,9,categorias,Documento Maestro Oficial auditado / M17_PLN_OFICIAL,2026-08-11
+nlp_summary,Histórico de tesis,accuracy,0.93,proporcion,Documento Maestro Oficial auditado / M17_PLN_OFICIAL,2026-08-11
+nlp_summary,Operativo técnico,records,6463,registros,Documento Maestro Oficial auditado / M17_PLN_OFICIAL,2026-08-11
+nlp_summary,Operativo técnico,categories,7,categorias,Documento Maestro Oficial auditado / M17_PLN_OFICIAL,2026-08-11
+nlp_summary,Operativo técnico,accuracy,1,proporcion,Documento Maestro Oficial auditado / M17_PLN_OFICIAL,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,random_seed,42,conteo,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,train_records,5152,conteo,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,test_records,1311,conteo,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,train_families,224,conteo,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,test_families,57,conteo,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,categories,7,conteo,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,unique_texts_total,297,conteo,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,accuracy,1.0,proporcion,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,precision_macro,1.0,proporcion,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,recall_macro,1.0,proporcion,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,f1_macro,1.0,proporcion,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,f1_weighted,1.0,proporcion,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
+nlp_operational_holdout,7_categorias_operacionales,roc_auc_macro_ovr,1.0,proporcion,Documento Maestro Oficial auditado / M17B_PLN_METRICAS,2026-08-11
