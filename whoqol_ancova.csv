@@ -1,6 +1,0 @@
-﻿domain,n,adjusted_group_difference,ci95_low,ci95_high,p_group,r2
-fisico,562,5.841,4.386,7.297,<0.001,0.602
-psicologico,562,13.064,11.537,14.592,<0.001,0.637
-relaciones,562,15.595,13.592,17.598,<0.001,0.503
-entorno,562,7.378,5.89,8.866,<0.001,0.626
-global_descriptive,562,10.507,9.683,11.33,<0.001,0.69
