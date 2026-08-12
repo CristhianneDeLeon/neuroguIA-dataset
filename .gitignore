@@ -1,14 +1,59 @@
-﻿__pycache__/
+# Python / temporales
+__pycache__/
 *.py[cod]
 *.log
 *.bak
 *.tmp
+.pytest_cache/
+.venv/
+venv/
+
+# Credenciales y configuración local
 .env
 .env.*
 !.env.example
 secrets.toml
 .streamlit/secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Sistema operativo / Office
 .DS_Store
 Thumbs.db
 ~$*
-02_SUPABASE/01_RESPALDO_BASE_ACTUAL.sql
+
+# Respaldos y volcados
+*.dump
+*.backup
+*.sql.gz
+01_RESPALDO_BASE_ACTUAL.sql
+
+# Fuentes analíticas restringidas
+NeuroGuIA_Documento_Maestro_Oficial*.xlsx
+master_input_dataset*.xlsx
+evaluacion_prepost_neuroguIA*.xlsx
+whoqol_bref_prepost_dominios_neuroguIA*.xlsx
+*ID_CROSSWALK*
+*id_crosswalk*
+
+# Tablas individuales / operacionales que no deben volver a publicarse
+research_participants*.csv
+research_prepost*.csv
+research_whoqol_items*.csv
+whoqol_items*.csv
+whoqol_scores*.csv
+operational_user_usage*.csv
+nlp_corpus_operational*.csv
+conversation_messages_supplemental*.csv
+ng_messages*.csv
+ng_families*.csv
+ng_profiles*.csv
+ng_case_memory*.csv
+ng_response_memory*.csv
+ng_user_context_memory*.csv
+ng_routines*.csv
+ng_learned_patterns*.csv
+ng_conversation_curation*.csv
+
