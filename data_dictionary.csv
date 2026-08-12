@@ -1,0 +1,21 @@
+﻿file,field,definition
+sample_summary.csv,indicator,Identificador del parámetro agregado
+sample_summary.csv,value,Valor canónico
+prepost_summary.csv,outcome,Dimensión DASS-21
+prepost_summary.csv,group_type,Experimental o Control
+prepost_summary.csv,favorable_change_percent,Reducción relativa para DASS
+mspss_summary.csv,pre_mean,Media MSPSS oficial basal
+mspss_summary.csv,post_mean,Media MSPSS oficial postest
+whoqol_summary.csv,domain,Dominio WHOQOL-BREF o índice global descriptivo
+ancova_hc3.csv,adjusted_group_difference,Diferencia ajustada Experimental - Control
+ancova_hc3.csv,p_group,Valor p del efecto de grupo
+ancova_hc3.csv,r2,Coeficiente de determinación
+effect_sizes.csv,effect_value,Cohen's d postest
+weekly_distribution.csv,sessions,Sesiones dentro de la semana activa
+usage_summary.csv,scope,Universo temporal al que corresponde la métrica
+usage_correlations.csv,spearman_rho,Correlación de Spearman
+usage_regression.csv,coefficient,Coeficiente del modelo de mejoría del estrés
+category_distribution.csv,percent_sessions,"Porcentaje de las 6,463 sesiones técnicas"
+nlp_metrics_historical.csv,accuracy,"Accuracy histórica del corpus de 1,020 registros"
+nlp_metrics.csv,accuracy,Accuracy técnica del holdout operativo
+experience_use_summary.csv,mean,Media agregada del indicador de experiencia

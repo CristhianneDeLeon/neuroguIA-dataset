@@ -1,0 +1,2 @@
+﻿evaluation_layer,records,categories,accuracy,precision_macro,recall_macro,f1_macro,roc_auc_macro_ovr,interpretation
+historical_labeled_corpus,1020,9,0.93,0.93,0.93,0.931,0.95,Capa histórica; mantener separada del control técnico operacional

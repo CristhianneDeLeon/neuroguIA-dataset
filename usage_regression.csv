@@ -1,0 +1,7 @@
+﻿model,predictor,coefficient,p_value,significance,note
+stress_improvement_model,messages,0.00295,0.62,No,Dentro del grupo experimental
+stress_improvement_model,continuity_weeks_over_18,0.00831,0.987,No,Continuidad normalizada por 18 semanas
+stress_improvement_model,baseline_stress,-0.0213,0.363,No,Covariable
+stress_improvement_model,age,-0.00042,0.97,No,Covariable
+stress_improvement_model,R2,0.0036,,,Ajuste global del modelo
+stress_improvement_model,adjusted_R2,-0.0108,,,Ajuste global del modelo

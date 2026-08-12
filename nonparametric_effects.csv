@@ -1,0 +1,9 @@
+﻿comparison,outcome,effect_metric,effect_value,interpretation
+within_experimental_pre_post,stress,abs_r,0.869,Cambio pre-post experimental
+within_experimental_pre_post,anxiety,abs_r,0.869,Cambio pre-post experimental
+within_experimental_pre_post,depression,abs_r,0.87,Cambio pre-post experimental
+within_experimental_pre_post,whoqol_global_descriptive,abs_r,0.865,Cambio pre-post experimental
+between_group_change,stress,r,0.846,Diferencia de cambio entre grupos
+between_group_change,anxiety,r,0.777,Diferencia de cambio entre grupos
+between_group_change,depression,r,0.783,Diferencia de cambio entre grupos
+between_group_change,whoqol_global_descriptive,r,0.735,Diferencia de cambio entre grupos
