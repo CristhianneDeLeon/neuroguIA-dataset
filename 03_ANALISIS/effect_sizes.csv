@@ -1,5 +1,10 @@
-﻿outcome,effect_definition,hedges_g_change,experimental_change_mean,control_change_mean
-stress,Hedges g de la diferencia de cambios; positivo favorece experimental,3.017053128324819,5.430604982206406,-0.17793594306049823
-anxiety,Hedges g de la diferencia de cambios; positivo favorece experimental,2.3837180227394716,3.9893238434163703,-0.12811387900355872
-depression,Hedges g de la diferencia de cambios; positivo favorece experimental,2.4708993655919294,3.711743772241993,-0.099644128113879
-support,Hedges g de la diferencia de cambios; positivo favorece experimental,3.5595641380106158,0.7144128113879004,0.03345195729537368
+﻿instrument,outcome,effect_definition,effect_value,effect_metric,interpretation
+DASS21,stress,posttest_exp_minus_control,-0.942,Cohen_d,Negativo: menor estrés en experimental
+DASS21,anxiety,posttest_exp_minus_control,-0.783,Cohen_d,Negativo: menor ansiedad en experimental
+DASS21,depression,posttest_exp_minus_control,-0.707,Cohen_d,Negativo: menor depresión en experimental
+APOYO_AUX,support_auxiliary,posttest_exp_minus_control,0.965,Cohen_d,Positivo: mayor apoyo auxiliar en experimental; no es MSPSS
+WHOQOL,fisico,posttest_exp_minus_control,0.36,Cohen_d,Positivo: mayor calidad de vida en experimental
+WHOQOL,psicologico,posttest_exp_minus_control,0.902,Cohen_d,Positivo: mayor calidad de vida en experimental
+WHOQOL,relaciones,posttest_exp_minus_control,0.965,Cohen_d,Positivo: mayor calidad de vida en experimental
+WHOQOL,entorno,posttest_exp_minus_control,0.652,Cohen_d,Positivo: mayor calidad de vida en experimental
+WHOQOL,global_descriptive,posttest_exp_minus_control,1.427,Cohen_d,Índice global descriptivo

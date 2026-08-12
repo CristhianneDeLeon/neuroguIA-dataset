@@ -1,10 +1,13 @@
-﻿quality_id,area,finding,status,action
-Q001,procedencia,La procedencia fue confirmada por la autora como datos recolectados con participantes.,documentado,Declaración de procedencia y manifiesto SHA-256 incluidos.
-Q003,resultados_prepost,La base primaria y el Dataset Maestro coinciden 1:1 en 562 participantes y seis puntuaciones DASS.,verificado,evaluacion_prepost_neuroguIA.xlsx fijada como fuente primaria de resultados.
-Q004,apoyo_prepost,El índice bruto 20–100 se transforma exactamente mediante división entre 20.,verificado,Se conservan tanto el valor bruto como la escala derivada 1–5.
-Q005,reactivos,"No se localizaron respuestas individuales por reactivo para DASS-21 adaptado, APOYO10 o UTIL10.",documentado,Los análisis utilizan las puntuaciones totales observadas; no se estiman alfas sin respuestas por reactivo.
-Q006,whoqol,Existen 562 registros completos de 26 reactivos pre y post; no hay cruce verificable con participant_id de la base principal.,analisis_independiente,WHOQOL se reporta como módulo analítico independiente.
-Q007,integridad_relacional,"Las claves operativas verificadas no presentan huérfanos en familias, perfiles, casos, mensajes y curación.",verificado,Restricciones y verificación post-carga incluidas en SQL.
-Q008,marcas_temporales,Se preservan sin redistribución las marcas temporales suministradas.,preservado,Dashboard usa agregaciones derivadas de los timestamps originales.
-Q009,enlace_investigacion_operacion,Los códigos de investigación y los UUID operativos no incluyen una tabla de correspondencia explícita.,modulos_separados,Los módulos de investigación y operación se conservan separados.
-Q010,pln,"El holdout agrupado evaluado originalmente utiliza 7 categorías, etiquetas operativas y 297 textos únicos; el corpus pseudonimizado actual contiene 1,442 textos exactos.",control_tecnico,"Las métricas se conservan como control previo a la normalización nominal; no se recalculan ni se presentan como validación humana independiente y requieren corpus gold."
+﻿check_id,area,check,status,resolution_or_note
+DQ-01,Muestra,562 participantes; 281/281,OK,Valores canónicos
+DQ-02,Temporalidad,18 semanas: 12-ene a 17-may-2026,OK,"Se excluyen del gráfico semanal PRE, cierre y POST"
+DQ-03,Uso,"1,325 sesiones activas vs 6,463 técnicas",OK,Se mantienen como universos distintos
+DQ-04,Uso,"10,212 mensajes activos vs 47,670 técnicos",OK,Se mantienen como universos distintos
+DQ-05,MSPSS,2.69→4.48 experimental; 2.69→2.73 control,OK,Resultado oficial agregado
+DQ-06,Apoyo auxiliar,No denominar MSPSS,OK,Medida secundaria separada
+DQ-07,ANCOVA,Errores robustos HC3,OK,Sustituye archivo antiguo cluster_family
+DQ-08,Dosis-respuesta,Mensajes y semanas activas no significativos en experimental,OK,rho=.021 p=.728; rho=.002 p=.975
+DQ-09,PLN,Histórico y operativo separados,OK,"1,020/9/.93 vs 6,463/7/1.0 técnico"
+DQ-10,Privacidad,Sin bases individuales ni corpus conversacional fila por fila,OK,Archivos granulares retirados del repositorio público
+DQ-11,WHOQOL,Resultados agregados por dominio,OK,No publicar items/puntajes individuales
+DQ-12,Confiabilidad,No publicar alfas no canónicas,OK,whoqol_reliability.csv debe eliminarse

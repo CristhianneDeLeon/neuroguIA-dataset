@@ -1,0 +1,6 @@
+﻿indicator,n,mean,sd,min,max,scale_or_note
+saturation_pre,281,3.4308,0.7692,1.67,5.4,Indicador descriptivo
+expectations_pre,281,2.6902,0.6968,1.0,4.36,Indicador descriptivo
+satisfaction_post,281,3.91865,0.6823,2.1,5.0,Indicador descriptivo
+continuity_intention_post,281,3.81883,0.6842,1.95,4.95,Indicador descriptivo
+UTIL10_aggregate,281,4.31438,0.07698,4.19,4.44,EUA-neuroguIA; agregado descriptivo
