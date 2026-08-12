@@ -1,0 +1,53 @@
+﻿file_name,column_name,dtype,definition,scope
+01_app_meta.csv,meta_key,text,Clave de política o metadato del repositorio,agregado_publico
+01_app_meta.csv,meta_value,json_text,Contenido estructurado del metadato,agregado_publico
+15_research_instruments.csv,instrument_or_measure,text,Nombre académico de instrumento o medida,agregado_publico
+15_research_instruments.csv,code,text,Código operativo,agregado_publico
+15_research_instruments.csv,public_evidence,text,Evidencia permitida en el repositorio público,agregado_publico
+16_research_instrument_items.csv,items_or_fields,integer,Número de reactivos o campos documentados,agregado_publico
+16_research_instrument_items.csv,public_data_policy,text,Regla de publicación para el instrumento,agregado_publico
+17_research_analysis_results.csv,analysis_family,text,Familia de análisis,agregado_publico
+17_research_analysis_results.csv,outcome,text,Resultado o variable,agregado_publico
+17_research_analysis_results.csv,statistic,text,Estadístico reportado,agregado_publico
+17_research_analysis_results.csv,value,numeric,Valor del estadístico,agregado_publico
+18_research_provenance.csv,evidence_area,text,Área de evidencia,agregado_publico
+18_research_provenance.csv,canonical_module,text,Módulo interno que sustenta la salida,agregado_publico
+19_research_transformations.csv,transformation_id,text,Identificador de transformación,agregado_publico
+19_research_transformations.csv,publication_scope,text,Alcance permitido de publicación,agregado_publico
+sample_summary.csv,indicator,text,Parámetro de muestra o temporalidad,agregado_publico
+sample_summary.csv,value,mixed,Valor canónico,agregado_publico
+prepost_summary.csv,outcome,text,Dimensión DASS-21,agregado_publico
+prepost_summary.csv,group_type,text,Experimental o Control,agregado_publico
+prepost_summary.csv,pre_mean,numeric,Media pretest,agregado_publico
+prepost_summary.csv,post_mean,numeric,Media postest,agregado_publico
+prepost_summary.csv,favorable_change_percent,numeric,Cambio relativo favorable en porcentaje,agregado_publico
+mspss_summary.csv,pre_mean,numeric,Media oficial MSPSS basal,agregado_publico
+mspss_summary.csv,post_mean,numeric,Media oficial MSPSS postest,agregado_publico
+whoqol_summary.csv,domain,text,Dominio WHOQOL-BREF o indicador global descriptivo,agregado_publico
+whoqol_summary.csv,change_percent_group_means,numeric,Cambio porcentual entre medias de grupo,agregado_publico
+ancova_hc3.csv,adjusted_group_difference,numeric,Diferencia ajustada Experimental-Control,agregado_publico
+ancova_hc3.csv,ci95_low,numeric,Límite inferior IC95%,agregado_publico
+ancova_hc3.csv,ci95_high,numeric,Límite superior IC95%,agregado_publico
+ancova_hc3.csv,p_group,text,Valor p del efecto de grupo,agregado_publico
+ancova_hc3.csv,r2,numeric,Coeficiente de determinación,agregado_publico
+effect_sizes.csv,effect_value,numeric,Tamaño del efecto postest,agregado_publico
+usage_summary.csv,scope,text,Universo temporal al que corresponde la métrica,agregado_publico
+weekly_distribution.csv,week,integer,Semana activa 1–18,agregado_publico
+weekly_distribution.csv,sessions,integer,Sesiones de la semana activa,agregado_publico
+usage_correlations.csv,spearman_rho,numeric,Coeficiente de Spearman,agregado_publico
+usage_correlations.csv,p_value,numeric,Valor p,agregado_publico
+usage_regression.csv,coefficient,numeric,Coeficiente del modelo,agregado_publico
+category_distribution.csv,sessions,integer,Sesiones por categoría operativa,agregado_publico
+category_distribution.csv,percent_sessions,numeric,"Porcentaje de las 6,463 sesiones",agregado_publico
+nlp_metrics_historical.csv,accuracy,numeric,Accuracy histórica,agregado_publico
+experience_use_summary.csv,mean,numeric,Media agregada del indicador de experiencia,agregado_publico
+dashboard_kpis.csv,metric,text,Indicador mostrado en dashboard,agregado_publico
+dashboard_kpis.csv,value,numeric,Valor canónico del indicador,agregado_publico
+dashboard_prepost.csv,outcome,text,Variable pretest-postest,agregado_publico
+dashboard_prepost.csv,improvement_mean,numeric,Cambio favorable medio,agregado_publico
+dashboard_weeks.csv,week_label,text,Semana ISO dentro de la intervención,agregado_publico
+dashboard_weeks.csv,sessions,integer,Sesiones en la semana,agregado_publico
+dashboard_categories.csv,category,text,Categoría operativa agregada,agregado_publico
+dashboard_states.csv,state,text,Estado conversacional agregado,agregado_publico
+dashboard_time_bands.csv,time_band,text,Franja horaria,agregado_publico
+dashboard_whoqol.csv,domain,text,Dominio WHOQOL-BREF,agregado_publico

@@ -1,0 +1,19 @@
+﻿quality_id,area,finding,status,action
+Q001,muestra,Muestra final de 562 participantes; 281 experimental y 281 control.,verificado,"Mantener estos conteos en tesis, dashboard y repositorio."
+Q002,temporalidad,Intervención activa de 18 semanas: 12-ene-2026 a 17-may-2026.,verificado,"Excluir PRE, cierre y POST de la serie semanal de intervención."
+Q003,uso_ventana,"Ventana experimental: 1,325 sesiones y 10,212 mensajes.",verificado,Reportar separada del corpus técnico completo.
+Q004,uso_tecnico,"Corpus técnico completo: 6,463 sesiones y 47,670 mensajes; duración media 6.38 min.",verificado,No presentar estas cifras como actividad exclusiva de las 18 semanas.
+Q005,dass21,Puntuaciones individuales disponibles para 562 participantes y resultados agregados armonizados.,verificado,Estrés principal; ansiedad y depresión complementarias; interpretación no clínica.
+Q006,mspss,Resultado oficial agregado: experimental 2.69→4.48; control 2.69→2.73.,verificado,No sustituir por el índice auxiliar individual.
+Q007,apoyo_auxiliar,Índice auxiliar individual disponible para análisis secundarios; experimental 2.69→3.40.,documentado,"Mantener separado de MSPSS en nombre, tablas y modelos."
+Q008,whoqol,WHOQOL-BREF disponible por participante y vinculado mediante correspondencia auditada.,verificado,Reportar cuatro dominios; global únicamente como indicador descriptivo.
+Q009,ancova,Especificación final: postest ~ grupo + pretest con errores robustos HC3.,verificado,Sustituye la documentación antigua basada en cluster familiar.
+Q010,efectos,Tamaños del efecto e intervalos de confianza armonizados con la fuente auditada.,verificado,Usar definiciones y signos documentados en las salidas públicas.
+Q011,dosis_respuesta,Dentro del grupo experimental no se observó asociación simple significativa entre exposición y mejoría del estrés.,verificado,"Mensajes: rho=.021, p=.728; semanas activas: rho=.002, p=.975."
+Q012,pln_historico,"Evaluación histórica: 1,020 registros, 9 categorías, accuracy .93, F1 macro .931.",verificado,Mantener como capa histórica.
+Q013,pln_operativo,"Control técnico: 6,463 registros, 7 categorías, accuracy técnica 1.0.",verificado,No presentar como validación humana externa.
+Q014,privacidad,"Bases individuales, UUID, mensajes, memorias y corpus fila por fila retirados del estado público.",verificado,Publicar únicamente agregados y documentación reproducible.
+Q015,supabase_publico,La carpeta pública 02_SUPABASE ya no es un respaldo restaurable de la base operacional.,documentado,"Conserva metadatos, instrumentos, resultados y trazabilidad."
+Q016,confiabilidad,No publicar coeficientes de confiabilidad que no puedan reproducirse desde la evidencia auditada.,verificado,Evitar alfas retroactivos o no canónicos.
+Q017,instrumentos,"DASS-21, MSPSS, WHOQOL-BREF y medidas de experiencia se mantienen con nombres y alcances diferenciados.",verificado,Consultar NeuroGuIA_Instrumentos_Criterios_Reporte.docx.
+Q018,repositorio,Las salidas públicas deben poder contrastarse con la tesis sin exponer datos individuales.,verificado,Una sola política canónica de reporte.
