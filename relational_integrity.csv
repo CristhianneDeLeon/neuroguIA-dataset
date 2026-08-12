@@ -1,9 +1,0 @@
-﻿check,expected,observed,status,note
-participants_total,562,562,OK,Muestra final
-experimental_total,281,281,OK,Grupo experimental
-control_total,281,281,OK,Grupo control
-analytical_families,281,281,OK,Cruce individual permanece restringido
-technical_sessions_total,6463,6463,OK,Corpus técnico
-technical_messages_total,47670,47670,OK,Corpus técnico
-active_window_sessions,1325,1325,OK,18 semanas
-active_intervention_weeks,18,18,OK,12-ene a 17-may-2026
