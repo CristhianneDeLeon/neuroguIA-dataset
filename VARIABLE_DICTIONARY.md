@@ -1,157 +1,226 @@
-# neuroguIA Dataset – Variable Dictionary
+# neuroguIA Dataset — Diccionario de variables públicas
 
-## General Description
+## Alcance
 
-This document describes the primary variables included in the neuroguIA longitudinal conversational dataset used for socioemotional interaction analysis in neurodivergent support contexts.
+Este diccionario describe las principales variables de los **archivos públicos
+agregados**. Los identificadores, perfiles y registros individuales de la base
+operacional no forman parte del conjunto público actual.
 
-The dataset was designed for:
-- conversational AI experimentation,
-- longitudinal behavioral analysis,
-- emotional state detection,
-- contextual memory modeling,
-- and educational/research reproducibility.
+Para el diccionario tabular completo consulte:
+
+`05_DOCUMENTACION/DICCIONARIO_DATOS.csv`
 
 ---
 
-# 01. families.csv
+## 1. Muestra y temporalidad
 
-| Variable | Type | Description |
+### `03_ANALISIS/sample_summary.csv`
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| family_id | UUID/Text | Unique identifier for each family unit |
-| unit_type | Text | Type of support unit (family, individual, caregiver group) |
-| caregiver_alias | Text | Anonymized caregiver identifier |
-| context_notes | Text | General contextual observations |
-| support_network | Text | Description of support environment |
-| environment_type | Text | Household or environmental condition |
-| created_at | Timestamp | Record creation date |
-| updated_at | Timestamp | Record last update |
+| `indicator` | Texto | Parámetro de muestra o temporalidad |
+| `value` | Mixto | Valor canónico |
+| `unit` | Texto | Unidad |
+| `note` | Texto | Nota metodológica |
+
+Indicadores principales:
+
+- `participants_total`
+- `participants_experimental`
+- `participants_control`
+- `analytical_families`
+- `active_intervention_weeks`
+- fechas de preparación, intervención y cierre
 
 ---
 
-# 02. profiles.csv
+## 2. DASS-21
 
-| Variable | Type | Description |
+### `03_ANALISIS/prepost_summary.csv`
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| profile_id | UUID/Text | Unique participant profile identifier |
-| family_id | UUID/Text | Related family identifier |
-| profile_alias | Text | Anonymized participant alias |
-| neurotype | Text | Neurodivergent profile category |
-| age_range | Text | Estimated age range |
-| support_level | Text | Functional support level |
-| communication_style | Text | Communication characteristics |
-| sensory_profile | Text | Sensory regulation profile |
-| created_at | Timestamp | Creation date |
-| updated_at | Timestamp | Last modification date |
+| `outcome` | Texto | `stress`, `anxiety` o `depression` |
+| `group_type` | Texto | Experimental o Control |
+| `n` | Entero | Tamaño del grupo |
+| `pre_mean` | Numérico | Media pretest |
+| `pre_sd` | Numérico | DE pretest |
+| `post_mean` | Numérico | Media postest |
+| `post_sd` | Numérico | DE postest |
+| `favorable_change_mean` | Numérico | Cambio expresado en dirección favorable |
+| `favorable_change_percent` | Numérico | Cambio relativo favorable (%) |
+
+Para DASS-21 una reducción se interpreta como cambio favorable.
 
 ---
 
-# 03. ng_case_memory.csv
+## 3. MSPSS
 
-| Variable | Type | Description |
+### `03_ANALISIS/mspss_summary.csv`
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| case_id | UUID/Text | Conversational memory case identifier |
-| family_id | UUID/Text | Linked family identifier |
-| profile_id | UUID/Text | Linked participant profile |
-| detected_category | Text | Main detected conversational category |
-| detected_stage | Text | Conversation stage classification |
-| primary_state | Text | Main emotional state |
-| secondary_states | JSON/Text | Additional emotional states |
-| emotional_intensity | Float | Estimated emotional intensity |
-| caregiver_capacity | Float | Estimated caregiver functional capacity |
-| suggested_strategy | Text | Recommended intervention strategy |
-| suggested_microaction | Text | Suggested micro-support action |
-| response_mode | Text | Conversational response style |
-| created_at | Timestamp | Memory creation timestamp |
+| `measure` | Texto | Medida reportada |
+| `group_type` | Texto | Experimental o Control |
+| `n` | Entero | Tamaño del grupo |
+| `pre_mean` | Numérico | Media oficial basal |
+| `post_mean` | Numérico | Media oficial postest |
+| `change_mean` | Numérico | Diferencia post-pre |
+| `change_percent` | Numérico | Cambio porcentual oficial |
+| `scale` | Texto | Escala utilizada |
+| `note` | Texto | Nota metodológica |
+
+MSPSS **no debe mezclarse** con el índice auxiliar de apoyo.
 
 ---
 
-# 04. learned_patterns.csv
+## 4. WHOQOL-BREF
 
-| Variable | Type | Description |
+### `03_ANALISIS/whoqol_summary.csv`
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| pattern_id | UUID/Text | Learned interaction pattern identifier |
-| category | Text | Pattern category |
-| trigger_context | Text | Contextual trigger detected |
-| response_effectiveness | Float | Estimated response effectiveness |
-| reinforcement_score | Float | Adaptive learning reinforcement score |
-| created_at | Timestamp | Pattern registration date |
+| `group_type` | Texto | Experimental o Control |
+| `domain` | Texto | Físico, psicológico, relaciones, entorno o global descriptivo |
+| `n` | Entero | Tamaño del grupo |
+| `pre_mean` | Numérico | Media pretest |
+| `pre_sd` | Numérico | DE pretest |
+| `post_mean` | Numérico | Media postest |
+| `post_sd` | Numérico | DE postest |
+| `mean_change` | Numérico | Diferencia post-pre |
+| `change_percent_group_means` | Numérico | Cambio porcentual entre medias |
+
+`global_descriptive` no constituye un quinto dominio oficial.
 
 ---
 
-# 05. response_memory.csv
+## 5. ANCOVA
 
-| Variable | Type | Description |
+### `03_ANALISIS/ancova_hc3.csv`
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| response_id | UUID/Text | Stored response identifier |
-| response_text | Text | Generated or curated response |
-| reuse_score | Float | Reusability confidence score |
-| category | Text | Associated category |
-| validation_status | Text | Validation state |
-| created_at | Timestamp | Response creation timestamp |
+| `instrument` | Texto | DASS21, APOYO_AUX o WHOQOL |
+| `outcome` | Texto | Resultado analizado |
+| `n` | Entero | Observaciones |
+| `adjusted_group_difference` | Numérico | Diferencia ajustada Experimental-Control |
+| `ci95_low` | Numérico | Límite inferior IC95% |
+| `ci95_high` | Numérico | Límite superior IC95% |
+| `p_group` | Texto/Numérico | Valor p |
+| `r2` | Numérico | Coeficiente de determinación |
+| `standard_error_method` | Texto | Método de error estándar; `HC3` |
+| `interpretation_note` | Texto | Regla de interpretación |
 
 ---
 
-# 06. routines.csv
+## 6. Tamaños del efecto
 
-| Variable | Type | Description |
+### `03_ANALISIS/effect_sizes.csv`
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| routine_id | UUID/Text | Routine identifier |
-| profile_id | UUID/Text | Linked profile |
-| routine_type | Text | Type of routine |
-| routine_goal | Text | Intended support objective |
-| sensory_support | Text | Sensory regulation assistance |
-| executive_support | Text | Executive function assistance |
-| created_at | Timestamp | Creation date |
+| `instrument` | Texto | Instrumento |
+| `outcome` | Texto | Resultado |
+| `effect_definition` | Texto | Comparación representada |
+| `effect_value` | Numérico | Tamaño del efecto |
+| `effect_metric` | Texto | Métrica, p. ej. Cohen's d |
+| `interpretation` | Texto | Nota de dirección |
 
 ---
 
-# 07. user_context_memory.csv
+## 7. Uso
 
-| Variable | Type | Description |
+### `03_ANALISIS/usage_summary.csv`
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| context_id | UUID/Text | Context memory identifier |
-| profile_id | UUID/Text | Linked profile |
-| memory_summary | Text | Condensed contextual memory |
-| relevance_score | Float | Importance estimation |
-| retrieval_frequency | Integer | Retrieval count |
-| created_at | Timestamp | Creation date |
+| `indicator` | Texto | Indicador de uso |
+| `value` | Numérico | Valor |
+| `unit` | Texto | Unidad |
+| `scope` | Texto | Universo temporal |
+| `note` | Texto | Delimitación metodológica |
 
----
+Es esencial distinguir `active_window` de `technical_total`.
 
-# 08. conversation_curation.csv
+### `03_ANALISIS/weekly_distribution.csv`
 
-| Variable | Type | Description |
+| Variable | Tipo | Descripción |
 |---|---|---|
-| conversation_id | UUID/Text | Curated conversation identifier |
-| category | Text | Main conversational category |
-| validation_score | Float | Validation confidence |
-| reviewed_flag | Boolean | Human-reviewed flag |
-| created_at | Timestamp | Registration timestamp |
+| `week` | Entero | Semana activa 1–18 |
+| `start_date` | Fecha | Inicio de semana |
+| `end_date` | Fecha | Fin de semana |
+| `sessions` | Entero | Sesiones en la semana |
+| `period` | Texto | Ventana metodológica |
 
 ---
 
-# 09. conversation_messages_supplemental.csv
+## 8. Correlaciones y regresión
 
-| Variable | Type | Description |
+### `03_ANALISIS/usage_correlations.csv`
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| message_id | UUID/Text | Message identifier |
-| profile_id | UUID/Text | Linked participant profile |
-| sender_type | Text | User/system sender type |
-| message_text | Text | Conversational message |
-| detected_intent | Text | NLP-detected intent |
-| detected_state | Text | Emotional state |
-| semantic_score | Float | Semantic similarity score |
-| created_at | Timestamp | Message timestamp |
+| `sample` | Texto | Muestra analizada |
+| `predictor` | Texto | Mensajes o semanas activas |
+| `outcome` | Texto | Resultado |
+| `spearman_rho` | Numérico | ρ de Spearman |
+| `p_value` | Numérico | Valor p |
+| `n` | Entero | Observaciones |
+| `interpretation` | Texto | Interpretación |
+
+### `03_ANALISIS/usage_regression.csv`
+
+| Variable | Tipo | Descripción |
+|---|---|---|
+| `model` | Texto | Modelo |
+| `predictor` | Texto | Predictor o estadístico de ajuste |
+| `coefficient` | Numérico | Coeficiente / valor |
+| `p_value` | Numérico | Valor p cuando corresponde |
+| `significance` | Texto | Indicador descriptivo |
+| `note` | Texto | Nota |
 
 ---
 
-# Validation Files
+## 9. PLN
 
-## category_distribution.csv
-Distribution of conversational categories detected across the dataset.
+### `03_ANALISIS/nlp_metrics_historical.csv`
 
-## state_distribution.csv
-Distribution of emotional states and conversational conditions.
+Resume la capa histórica de 1,020 registros y 9 categorías.
 
-## validation_report_conversation_messages.csv
-Validation report for conversational message integrity and preprocessing consistency.
+### `03_ANALISIS/nlp_metrics.csv`
+
+Documenta el control técnico operativo con 6,463 registros y 7 categorías.
+
+### `03_ANALISIS/category_distribution.csv`
+
+| Variable | Tipo | Descripción |
+|---|---|---|
+| `category` | Texto | Categoría operativa |
+| `sessions` | Entero | Sesiones clasificadas |
+| `percent_sessions` | Numérico | Porcentaje de las 6,463 sesiones |
+
+---
+
+## 10. Dashboard
+
+Los archivos `04_DASHBOARD/dashboard_*.csv` son vistas agregadas derivadas de las
+salidas analíticas. No deben considerarse una fuente primaria independiente.
+
+---
+
+## 11. Variables restringidas
+
+Quedan fuera del diccionario público fila por fila:
+
+- `participant_id`;
+- `family_id`;
+- `profile_id`;
+- UUID de sesiones/mensajes;
+- textos conversacionales;
+- respuestas individuales de instrumentos;
+- crosswalks;
+- memorias contextuales;
+- rutinas vinculadas a perfiles.
+
+Su existencia puede documentarse metodológicamente, pero sus valores no se distribuyen
+en el repositorio público.

@@ -1,433 +1,133 @@
 # Changelog
 
-All notable changes to the **neuroguIA Dataset** project will be documented in this file.
+Este archivo documenta cambios relevantes del repositorio público
+**neuroguIA Dataset**.
 
-The format is inspired by:
-[Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
-
-This project follows a research-oriented versioning strategy focused on
-traceability, reproducibility, academic preservation, and responsible data use.
+La rama `main` puede recibir correcciones documentales y metodológicas sin implicar
+necesariamente una nueva publicación archivada o un nuevo número de versión.
 
 ---
 
-# [2.0.0] - 2026-08-01
+## [Armonización del repositorio público] — 2026-08-11
 
-## ?? Consolidated Research Dataset Release
+**No corresponde a una nueva versión 3.0.0 ni a un nuevo release archivado.**
 
-Final consolidated release of the neuroguIA research dataset used for
-academic consultation, reproducibility, auditing, preservation, and
-scientific visualization.
+Se armonizó el estado público del repositorio con las decisiones metodológicas y
+analíticas finales de la tesis.
 
-This release reorganizes the repository around the complete research
-workflow, from instruments and operational data to statistical analysis,
-dashboard resources, and methodological documentation.
+### Privacidad y alcance público
 
----
+Se retiraron del estado público archivos con granularidad individual u operacional que
+no son necesarios para verificar los resultados científicos, incluyendo:
 
-## ? Added
+- bases individuales pretest/postest;
+- respuestas WHOQOL por participante;
+- perfiles, memorias y mensajes fila por fila;
+- métricas individuales de uso;
+- corpus conversacional operacional;
+- archivos de migración que requieren las fuentes restringidas.
 
-### ?? Consolidated Repository Structure
+La carpeta pública `02_SUPABASE` dejó de presentarse como un respaldo restaurable de la
+base operacional.
 
-Added the final research-oriented repository architecture:
+### Temporalidad
 
-- `01_INSTRUMENTOS_Y_FUENTES/`
-- `02_SUPABASE/`
-- `03_ANALISIS/`
-- `04_DASHBOARD/`
-- `05_DOCUMENTACION/`
+Se fijó como criterio canónico:
 
----
+- semana preparatoria: 5–11 de enero de 2026;
+- intervención activa: **18 semanas**, 12 de enero–17 de mayo de 2026;
+- postest/cierre: 18–21 de mayo de 2026.
 
-### ?? Research Instruments and Sources
+La ventana experimental contiene **1,325 sesiones y 10,212 mensajes**.
 
-Added the instruments and canonical methodological sources used in the study:
+El corpus técnico completo contiene **6,463 sesiones y 47,670 mensajes**.
 
-- informed consent documentation,
-- sociodemographic instrument,
-- DASS-21 adapted instrument,
-- perceived social support scale,
-- technological utility scale,
-- neuroguIA pretest instrument,
-- neuroguIA posttest instrument,
-- pretest-posttest evaluation workbook,
-- consolidated master input dataset,
-- and WHOQOL-BREF reference workbook.
+### Resultados socioemocionales
 
----
+Se armonizaron las salidas públicas con los resultados auditados:
 
-### ??? Supabase Dataset and Migration Resources
+- estrés experimental: 17.89→12.46;
+- ansiedad experimental: 12.82→8.83;
+- depresión experimental: 12.52→8.81;
+- MSPSS oficial experimental: 2.69→4.48;
+- MSPSS oficial control: 2.69→2.73.
 
-Added a complete and ordered Supabase migration package including:
+MSPSS e índice auxiliar de apoyo quedaron explícitamente separados.
 
-- database diagnostic scripts,
-- schema creation scripts,
-- import-ready relational CSV files,
-- validation scripts,
-- dashboard analytical views,
-- Row Level Security configuration,
-- recovery and verification scripts,
-- research participant records,
-- research instrument items,
-- provenance records,
-- and transformation metadata.
+### Estadística
 
-The migration workflow includes the ordered loading of 19 CSV files.
+La especificación inferencial pública se documentó como:
 
----
+`postest ~ grupo + pretest`
 
-### ?? Reproducible Research Analysis
+con errores estándar robustos **HC3**.
 
-Added reproducible analytical outputs for:
+Se actualizaron:
 
-- pretest-posttest results,
-- psychometric indicators,
-- effect sizes,
-- ANCOVA results,
-- categorical distributions,
-- emotional-state distributions,
-- weekly and time-band distributions,
-- NLP performance metrics,
-- confusion matrices,
-- relational integrity,
-- participant summaries,
-- session summaries,
-- WHOQOL-BREF dimensions,
-- and operational usage analysis.
+- ANCOVA;
+- tamaños del efecto;
+- pruebas no paramétricas;
+- correlaciones;
+- regresión de uso;
+- WHOQOL-BREF;
+- controles de calidad y trazabilidad.
 
----
+### Uso y dosis–respuesta
 
-### ?? Scientific Dashboard Resources
+Se corrigieron las referencias de exposición. Dentro del grupo experimental:
 
-Added consolidated resources used by the neuroguIA scientific dashboard:
+- mensajes vs mejoría de estrés: ρ=0.021, p=0.728;
+- semanas activas vs mejoría de estrés: ρ=0.002, p=0.975.
 
-- dashboard KPI tables,
-- conversational category summaries,
-- pretest-posttest dashboard data,
-- emotional-state summaries,
-- time-band distributions,
-- weekly distributions,
-- and WHOQOL-BREF visual summaries.
+No se interpreta una relación dosis–respuesta simple significativa.
 
----
+### PLN
 
-### ?? Documentation and Traceability
+Se diferenciaron formalmente:
 
-Added documentation for:
+- PLN histórico: 1,020 registros, 9 categorías, accuracy 0.93;
+- PLN operativo: 6,463 registros, 7 categorías, accuracy técnica 1.0.
 
-- data provenance,
-- data dictionary,
-- transformation records,
-- data-source fingerprints,
-- SHA-256 integrity manifests,
-- Supabase validation,
-- instrument interpretation criteria,
-- quality controls,
-- and canonical source identification.
+La segunda métrica se presenta como control técnico interno reproducible y no como
+validación humana externa.
+
+### Reproducibilidad
+
+La carpeta `analysis/` fue modificada para validar los **resultados agregados públicos**
+sin exigir que la base individual permanezca en GitHub.
+
+### Documentación raíz
+
+Se actualizaron:
+
+- `README.md`;
+- `VARIABLE_DICTIONARY.md`;
+- `DATA_SCHEMA.md`;
+- `CITATION.cff`;
+- `requirements.txt`;
+- `.gitignore`.
+
+El archivo `schema_supabase.sql` deja de formar parte del estado público vigente porque
+el repositorio ya no distribuye una reconstrucción completa de la base operacional.
 
 ---
 
-## ?? Changed
+## Publicación archivada v2.0.0 — 2026-08
 
-### ?? Repository Architecture
+La publicación v2.0.0 permanece como **instantánea histórica archivada**.
 
-Replaced the previous folder organization with a consolidated structure
-aligned with the complete research lifecycle.
+- DOI específico: https://doi.org/10.5281/zenodo.21755820
+- DOI conceptual: https://doi.org/10.5281/zenodo.20337422
 
-Previous structure:
-
-- `00_documentacion/`
-- `01_supabase_core/`
-- `02_mensajes_conversacionales/`
-- `03_validacion/`
-- `04_backups/`
-- `05_exports_produccion/`
-
-Current structure:
-
-- `01_INSTRUMENTOS_Y_FUENTES/`
-- `02_SUPABASE/`
-- `03_ANALISIS/`
-- `04_DASHBOARD/`
-- `05_DOCUMENTACION/`
+El contenido de la rama `main` fue posteriormente armonizado. Por ello, el DOI
+específico v2.0.0 debe utilizarse únicamente cuando se desea citar o reproducir esa
+instantánea archivada.
 
 ---
 
-### ?? Main Documentation
+## Publicación inicial — 2026-05
 
-Updated `README.md` to identify:
+La primera publicación estructuró los recursos iniciales de datos, documentación,
+validación y arquitectura conversacional utilizados durante el desarrollo del proyecto.
 
-- canonical data sources,
-- import-ready Supabase files,
-- analytical resources,
-- dashboard resources,
-- quality-control documentation,
-- and the methodological interpretation file for the research instruments.
-
----
-
-### ?? Citation Metadata
-
-Updated `CITATION.cff` to:
-
-- version `2.0.0`,
-- release date `2026-08-01`,
-- current repository metadata,
-- author identification,
-- and academic citation information.
-
----
-
-## ?? Consolidated Dataset Statistics
-
-| Metric | Value |
-|---|---:|
-| Research participants | 562 |
-| Families / experimental units | 281 |
-| Profile aliases | 619 |
-| Conversational sessions | 6,463 |
-| Conversational messages | 47,670 |
-| Learned patterns | 1,885 |
-| Stored responses | 465 |
-| User contextual memory records | 562 |
-| Routines | 1,468 |
-| NLP classified records | 1,020 |
-| NLP categories | 9 |
-
----
-
-## ?? Research Components
-
-This release supports research and reproducibility in:
-
-- Conversational Artificial Intelligence
-- Natural Language Processing
-- Hybrid AI architectures
-- Contextual memory systems
-- Socioemotional support technologies
-- Neurodivergent caregiving contexts
-- Longitudinal conversational analytics
-- Psychometric evaluation
-- Human-centered AI
-- Scientific dashboard development
-
----
-
-## ?? Security and Privacy
-
-This release implements:
-
-- anonymized research identifiers,
-- exclusion of passwords and credentials,
-- exclusion of local backups and temporary files,
-- separation of operational records from the analytical corpus,
-- integrity verification through SHA-256 manifests,
-- documented provenance,
-- methodological traceability,
-- and privacy-oriented publication controls.
-
-No Streamlit secrets, Supabase credentials, database connection strings,
-or internal Git backup bundles are included in the public repository.
-
----
-
-## ? Validation
-
-The consolidated package was validated for:
-
-- repository structure,
-- canonical source availability,
-- CSV loading order,
-- relational consistency,
-- profile and participant counts,
-- session and message counts,
-- UTF-8 compatibility,
-- absence of publication secrets,
-- Git synchronization,
-- and reproducible dashboard inputs.
-
----
-
-## ?? Important Notes
-
-- This dataset is intended for academic and research purposes.
-- The system is non-clinical.
-- Published records use anonymized or controlled identifiers.
-- Operational and analytical values may follow different documented definitions.
-- Canonical sources and transformation rules are identified in the repository documentation.
-
----
-
-# [1.0.0] - 2026-05-21
-
-## 🎉 Initial Public Research Dataset Release
-
-First structured release of the neuroguIA hybrid conversational AI dataset for neurodivergent socioemotional support research.
-
----
-
-## ✨ Added
-
-### 📂 Repository Structure
-
-Added organized repository architecture:
-
-- `00_documentacion/`
-- `01_supabase_core/`
-- `02_mensajes_conversacionales/`
-- `03_validacion/`
-- `04_backups/`
-- `05_exports_produccion/`
-
----
-
-### 🗄️ Relational Dataset
-
-Added core relational CSV datasets:
-
-- `families.csv`
-- `profiles.csv`
-- `ng_case_memory.csv`
-- `learned_patterns.csv`
-- `response_memory.csv`
-- `routines.csv`
-- `user_context_memory.csv`
-
----
-
-### 💬 Conversational Datasets
-
-Added conversational and supplemental datasets:
-
-- `conversation_curation.csv`
-- `conversation_messages_supplemental.csv`
-- `conversation_messages_supplemental_clean.csv`
-- `ng_messages_import_from_supplemental.csv`
-
----
-
-### 📊 Validation Resources
-
-Added validation and analytical resources:
-
-- `category_distribution.csv`
-- `state_distribution.csv`
-- `validation_report_conversation_messages.csv`
-
----
-
-### 🧠 Hybrid Conversational Architecture
-
-Integrated hybrid conversational system components:
-
-- TF-IDF classification
-- Semantic embeddings
-- Contextual memory
-- Conversational state analysis
-- Longitudinal tracking
-- Controlled generative AI
-- Hybrid routing logic
-
----
-
-### 🗄️ PostgreSQL / Supabase Integration
-
-Added:
-
-- relational schema compatibility,
-- import-ready CSV structures,
-- Supabase-compatible organization,
-- and relational workflow documentation.
-
----
-
-### 🔒 Ethical and Privacy Improvements
-
-Implemented:
-
-- anonymized conversational aliases,
-- diversified caregiver names,
-- removal of repeated identities,
-- contextual anonymization,
-- and ethical research-oriented protections.
-
----
-
-### 📚 Documentation
-
-Added:
-
-- `README.md`
-- `VARIABLE_DICTIONARY.md`
-- `DATA_SCHEMA.md`
-- `CITATION.cff`
-- `LICENSE`
-- `IMPORT_ORDER.txt`
-- `README_IMPORTACION.md`
-- `requirements.txt`
-- `schema_supabase.sql`
-
----
-
-### 🖼️ Research Diagrams
-
-Added 4K UHD research diagrams:
-
-- Hybrid architecture
-- Relational schema
-- Conversational flow
-- Dataset statistics
-
----
-
-## 📊 Dataset Statistics
-
-| Metric | Value |
-|---|---|
-| Families | 281 |
-| Profiles | 619 |
-| Conversational Sessions | 6,463 |
-| Supplemental Messages | 47,670 |
-| Learned Patterns | 1,885 |
-| Stored Responses | 465 |
-| Routines | 1,468 |
-| Emotional States | 9 |
-| Conversational Categories | 7 |
-
----
-
-## 🔬 Research Scope
-
-This release supports research in:
-
-- Conversational AI
-- NLP
-- Emotional computing
-- Hybrid AI architectures
-- Neurodivergent support systems
-- Longitudinal conversational analytics
-- Contextual memory systems
-
----
-
-## ⚠️ Important Notes
-
-- This dataset is intended exclusively for academic and research purposes.
-- The system is non-clinical.
-- No real personal identities are included.
-- All conversational data was anonymized and diversified.
-
----
-
-# [Future Releases]
-
-## Planned Features
-
-- Multilingual conversational datasets
-- Expanded emotional trajectory tracking
-- Reinforcement learning integration
-- Real-time conversational analytics
-- Additional validation pipelines
-- Multimodal contextual memory
-- Advanced semantic retrieval experiments
-
----
+El historial detallado de commits de Git conserva la evolución técnica del repositorio.

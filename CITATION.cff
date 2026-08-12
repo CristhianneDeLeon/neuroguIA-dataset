@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "neuroguIA Dataset"
-message: "If you use this dataset in academic research, publications, or derivative work, please cite the archived version using the metadata below."
+message: "Para citar el estado actual del repositorio utilice la referencia de GitHub. Para reproducir la publicación archivada v2.0.0 utilice su DOI específico de Zenodo."
 type: dataset
 
 authors:
@@ -9,46 +9,39 @@ authors:
     orcid: "https://orcid.org/0009-0007-4777-1741"
 
 abstract: >
-  neuroguIA Dataset is an anonymized conversational artificial intelligence
-  dataset designed for socioemotional support research in neurodivergent
-  contexts. The dataset includes research instruments, conversational sessions,
-  contextual memory structures, semantic processing signals, adaptive
-  conversational routing, psychometric results, longitudinal interaction data,
-  analytical resources, and structured files prepared for PostgreSQL and
-  Supabase.
+  Repositorio público de investigación asociado con neuroguIA. Contiene instrumentos
+  metodológicos, resultados agregados pretest-postest, análisis inferenciales,
+  métricas de uso, resultados WHOQOL-BREF, métricas de PLN, fuentes agregadas para
+  dashboard y materiales de reproducibilidad. Las bases individuales, identificadores,
+  mensajes y corpus conversacional fila por fila permanecen fuera del repositorio público.
 
 keywords:
   - "Artificial Intelligence"
   - "Conversational AI"
   - "Natural Language Processing"
-  - "NLP"
   - "Neurodivergence"
-  - "Hybrid AI"
-  - "Contextual Memory"
   - "Socioemotional Support"
   - "Human-Centered AI"
-  - "Longitudinal Conversational Analysis"
   - "Research Dataset"
-  - "Supabase"
+  - "Reproducibility"
+  - "Psychometric Evaluation"
+  - "Hybrid AI"
 
 license: "CC-BY-NC-4.0"
-version: "2.0.0"
-date-released: "2026-08-02"
-doi: "10.5281/zenodo.21755820"
 
 identifiers:
-  - type: doi
-    value: "10.5281/zenodo.21755820"
-    description: "Version-specific DOI for neuroguIA Dataset v2.0.0."
+  - type: url
+    value: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
+    description: "Repositorio público actual."
   - type: doi
     value: "10.5281/zenodo.20337422"
-    description: "Concept DOI representing all published versions of neuroguIA Dataset."
-  - type: url
-    value: "https://github.com/CristhianneDeLeon/neuroguIA-dataset/releases/tag/v2.0.0"
-    description: "GitHub release corresponding to version 2.0.0."
+    description: "DOI conceptual/general asociado con las publicaciones archivadas del conjunto."
+  - type: doi
+    value: "10.5281/zenodo.21755820"
+    description: "DOI específico de la instantánea archivada v2.0.0; no representa una huella exacta del estado actual de main."
 
 repository-code: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
-url: "https://doi.org/10.5281/zenodo.21755820"
+url: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"
 
 preferred-citation:
   type: dataset
@@ -56,10 +49,7 @@ preferred-citation:
     - family-names: "De León"
       given-names: "Cristhianne"
       orcid: "https://orcid.org/0009-0007-4777-1741"
-  title: "neuroguIA Dataset: Conversational AI Dataset for Socioemotional Support in Neurodivergent Contexts"
-  version: "2.0.0"
+  title: "neuroguIA Dataset: resultados públicos y materiales de reproducibilidad"
   year: 2026
-  date-released: "2026-08-02"
-  publisher: "Zenodo"
-  doi: "10.5281/zenodo.21755820"
-  url: "https://doi.org/10.5281/zenodo.21755820"
+  publisher: "GitHub"
+  url: "https://github.com/CristhianneDeLeon/neuroguIA-dataset"

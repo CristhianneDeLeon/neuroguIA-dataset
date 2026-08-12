@@ -1,54 +1,183 @@
 # Datos de investigación de neuroguIA
 
-Responsable: Cristhianne De León
-Fecha de consolidación: 2026-08-01
+**Responsable:** Cristhianne De León  
+**ORCID:** https://orcid.org/0009-0007-4777-1741  
+**Última armonización documental:** 11 de agosto de 2026
 
-Este paquete reúne las bases operativas, los resultados de investigación, los instrumentos y los archivos para dashboard.
+Este repositorio reúne los **resultados públicos agregados, instrumentos, recursos de
+reproducibilidad, fuentes para dashboard y documentación metodológica** asociados con
+la investigación de neuroguIA.
 
-## Regla central
+El repositorio público **no constituye un respaldo restaurable de Supabase** ni
+distribuye la base individual utilizada para los análisis.
 
-- Los archivos de `01_INSTRUMENTOS_Y_FUENTES` conservan los instrumentos y bases de referencia.
-- Los CSV de `02_SUPABASE` son las tablas listas para importación.
-- Los archivos de `03_ANALISIS` contienen los resultados reproducibles.
-- El concentrado de `04_DASHBOARD` reúne la información requerida para visualización.
-- `05_DOCUMENTACION` conserva el diccionario, las fuentes y los controles de calidad.
-- `05_DOCUMENTACION/NeuroGuIA_Instrumentos_Criterios_Reporte.docx` fija la denominación, puntuación y uso metodológico de cada instrumento.
+## Accesos públicos
 
-## Supabase
+- Plataforma conversacional: https://neuroguia-ai.streamlit.app/
+- Dashboard científico: https://neuroguia-conversational-ai-dashboard.streamlit.app/
+- Código de la aplicación: https://github.com/CristhianneDeLeon/neuroguIA-conversational-ai
+- Repositorio de datos: https://github.com/CristhianneDeLeon/neuroguIA-dataset
+- ORCID: https://orcid.org/0009-0007-4777-1741
 
-La carpeta `02_SUPABASE` incluye una migración completa y ordenada:
-diagnóstico, respaldo, archivo administrativo de registros no analíticos,
-creación del esquema, carga automática de los 19 CSV, validación, vistas de
-dashboard, seguridad RLS y verificación final.
+## Parámetros canónicos del estudio
 
-Comience siempre por `02_SUPABASE/00_LEEME_PRIMERO.md`. La carga fue probada
-de principio a fin con los 19 CSV y reproduce 562 participantes, 6,463 sesiones
-y 47,670 mensajes. Además, valida 619 alias de perfiles únicos, 92 reactivos o
-campos instrumentales y la semántica de los nulos no aplicables. Los 39 casos
-operativos que no forman parte del corpus analítico se conservan por separado
-en el esquema administrativo y no alimentan los indicadores.
+| Indicador | Valor |
+|---|---:|
+| Participantes | 562 |
+| Grupo experimental | 281 |
+| Grupo control | 281 |
+| Familias analíticas | 281 |
+| Intervención activa | 18 semanas |
+| Periodo activo | 12-ene-2026 a 17-may-2026 |
+| Postest/cierre | 18-may-2026 a 21-may-2026 |
+| Sesiones en ventana experimental | 1,325 |
+| Mensajes en ventana experimental | 10,212 |
+| Sesiones técnicas totales | 6,463 |
+| Mensajes técnicos totales | 47,670 |
+| Duración técnica media de sesión | 6.38 min |
 
-## Fuentes canónicas
+La **ventana experimental** y el **corpus técnico completo** son universos distintos y
+se reportan por separado.
 
-- Resultados pretest–postest: `evaluacion_prepost_neuroguIA.xlsx`.
-- Participantes y variables descriptivas: `master_input_dataset.xlsx`.
-- Operación conversacional: `ng_case_memory.csv` y `conversation_messages_supplemental_clean.csv`.
-- WHOQOL-BREF: `whoqol_bref_prepost_dominios_neuroguIA.xlsx`.
+## Resultados principales
 
-Los registros conservan sus marcas temporales suministradas. Las columnas derivadas se identifican en el diccionario y en el registro de transformaciones.
+### DASS-21
 
-## DOI y citación
+En el grupo experimental:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20337422.svg)](https://doi.org/10.5281/zenodo.20337422)
+- Estrés: **17.89 → 12.46**; reducción relativa **30.36%**.
+- Ansiedad: **12.82 → 8.83**; reducción relativa **31.11%**.
+- Depresión: **12.52 → 8.81**; reducción relativa **29.65%**.
 
-La versión consolidada del dataset se encuentra preservada en Zenodo:
+La especificación inferencial final utiliza ANCOVA:
 
-- **Versión publicada:** `v2.0.0`
-- **DOI específico de la versión:** [10.5281/zenodo.21755820](https://doi.org/10.5281/zenodo.21755820)
-- **DOI general del conjunto:** [10.5281/zenodo.20337422](https://doi.org/10.5281/zenodo.20337422)
-- **Tipo de recurso:** Dataset
-- **Licencia:** CC BY-NC 4.0
-- **Autora:** Cristhianne De León
-- **ORCID:** [0009-0007-4777-1741](https://orcid.org/0009-0007-4777-1741)
+`postest ~ grupo + pretest`
 
-Para investigaciones, publicaciones o análisis derivados, debe citarse el DOI específico de la versión utilizada.
+con errores estándar robustos **HC3**.
+
+### MSPSS
+
+Resultado oficial agregado:
+
+- Experimental: **2.69 → 4.48**.
+- Control: **2.69 → 2.73**.
+
+El MSPSS se mantiene metodológicamente separado del **índice auxiliar de apoyo** usado
+en análisis secundarios.
+
+### WHOQOL-BREF
+
+Se publican resultados agregados para los cuatro dominios oficiales:
+
+- físico;
+- psicológico;
+- relaciones sociales;
+- entorno.
+
+El promedio global se conserva únicamente como **indicador descriptivo**.
+
+### Uso y relación dosis–respuesta
+
+Dentro del grupo experimental no se observó una asociación simple significativa entre
+la mejoría del estrés y:
+
+- número de mensajes: **ρ = 0.021; p = 0.728**;
+- semanas activas: **ρ = 0.002; p = 0.975**.
+
+### PLN
+
+Se mantienen dos capas distintas de evidencia:
+
+- **PLN histórico:** 1,020 registros, 9 categorías, accuracy 0.93, F1 macro 0.931,
+  ROC-AUC 0.95.
+- **PLN operativo:** 6,463 registros, 7 categorías y accuracy técnica 1.0 en un
+  control interno reproducible.
+
+La métrica operativa se interpreta como **control técnico interno**, no como validación
+humana externa.
+
+## Estructura pública del repositorio
+
+```text
+neuroguIA-dataset/
+├── 01_INSTRUMENTOS_Y_FUENTES/
+│   └── instrumentos y documentos metodológicos sin respuestas individuales
+│
+├── 02_SUPABASE/
+│   └── metadatos, instrumentos, resultados agregados, procedencia y transformaciones
+│
+├── 03_ANALISIS/
+│   └── resultados descriptivos, inferenciales, uso y métricas PLN
+│
+├── 04_DASHBOARD/
+│   └── fuentes agregadas para visualización científica
+│
+├── 05_DOCUMENTACION/
+│   └── calidad, trazabilidad, diccionario, manifiestos y criterios de reporte
+│
+└── analysis/
+    └── código para validar las salidas públicas agregadas
+```
+
+## Privacidad y alcance público
+
+No se distribuyen públicamente:
+
+- nombres ni identificadores directos;
+- crosswalks entre códigos;
+- UUID vinculables a participantes o familias;
+- perfiles individuales;
+- respuestas pretest/postest individuales;
+- respuestas WHOQOL por reactivo;
+- mensajes o conversaciones fila por fila;
+- memorias contextuales;
+- rutinas asociadas a perfiles;
+- métricas individuales de uso;
+- corpus conversacional operacional completo;
+- el Documento Maestro individual auditado.
+
+La reproducibilidad pública se sostiene mediante **resultados agregados, documentación
+de procedencia, transformaciones, controles de calidad y código de validación**.
+
+## Reproducibilidad
+
+Instalación:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Validación:
+
+```bash
+python -m pytest analysis/tests -q
+python analysis/reproducir_resultados.py   --analysis-dir 03_ANALISIS   --dashboard-dir 04_DASHBOARD   --output outputs/reproducibilidad   --strict
+```
+
+La validación pública contrasta los archivos agregados entre sí y no requiere publicar
+la base individual.
+
+## Preservación histórica en Zenodo
+
+El repositorio conserva referencias a una publicación archivada previa:
+
+- DOI específico de la publicación archivada v2.0.0:
+  https://doi.org/10.5281/zenodo.21755820
+- DOI conceptual/general del conjunto:
+  https://doi.org/10.5281/zenodo.20337422
+
+**Importante:** el DOI específico de v2.0.0 identifica el contenido archivado de esa
+publicación y no debe interpretarse como una huella exacta del estado actual de la rama
+`main`, que posteriormente fue armonizada para corregir alcance público, privacidad,
+temporalidad y resultados analíticos.
+
+Para citar el **estado actual del repositorio**, utilice la URL de GitHub y la fecha de
+consulta. Para reproducir específicamente la publicación archivada v2.0.0, utilice su
+DOI específico.
+
+## Licencia
+
+Los materiales públicos de este repositorio se distribuyen bajo
+**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+
+Consulte `LICENSE` para los términos.
