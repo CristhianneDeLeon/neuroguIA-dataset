@@ -1,0 +1,45 @@
+﻿metric,expected_value,tolerance,source_area,note
+participants_total,562,0,Muestra,Muestra final
+participants_experimental,281,0,Muestra,Grupo experimental
+participants_control,281,0,Muestra,Grupo control
+active_intervention_weeks,18,0,Metodología,12-ene-2026 a 17-may-2026
+active_window_sessions,1325,0,Uso,Ventana experimental activa
+active_window_messages,10212,0,Uso,Ventana experimental activa
+technical_sessions_total,6463,0,Uso,Corpus técnico completo
+technical_messages_total,47670,0,Uso,Corpus técnico completo
+technical_session_duration_mean,6.3758,0.001,Uso,Minutos
+stress_experimental_pre,17.88612099644128,0.001,DASS-21,Media pre
+stress_experimental_post,12.455516014234876,0.001,DASS-21,Media post
+stress_experimental_change_percent,30.362116991643457,0.01,DASS-21,Reducción favorable
+stress_control_pre,17.98220640569395,0.001,DASS-21,Media pre
+stress_control_post,18.160142348754448,0.001,DASS-21,Media post
+stress_control_change_percent,-0.9895111814763506,0.01,DASS-21,Cambio favorable negativo
+anxiety_experimental_pre,12.822064056939501,0.001,DASS-21,Media pre
+anxiety_experimental_post,8.832740213523131,0.001,DASS-21,Media post
+anxiety_experimental_change_percent,31.112961421038026,0.01,DASS-21,Reducción favorable
+depression_experimental_pre,12.519572953736654,0.001,DASS-21,Media pre
+depression_experimental_post,8.807829181494663,0.001,DASS-21,Media post
+depression_experimental_change_percent,29.647527003979523,0.01,DASS-21,Reducción favorable
+mspss_experimental_pre,2.69,0.001,MSPSS,Resultado oficial agregado
+mspss_experimental_post,4.48,0.001,MSPSS,Resultado oficial agregado
+mspss_experimental_change_percent,66.44,0.01,MSPSS,Incremento oficial agregado
+mspss_control_pre,2.69,0.001,MSPSS,Resultado oficial agregado
+mspss_control_post,2.73,0.001,MSPSS,Resultado oficial agregado
+stress_ancova_b_group,-5.607,0.001,ANCOVA HC3,Experimental - Control
+stress_ancova_r2,0.923,0.001,ANCOVA HC3,R²
+anxiety_ancova_b_group,-4.118,0.001,ANCOVA HC3,Experimental - Control
+depression_ancova_b_group,-3.812,0.001,ANCOVA HC3,Experimental - Control
+whoqol_global_experimental_pre,50.22387624978818,0.001,WHOQOL,Índice global descriptivo
+whoqol_global_experimental_post,61.7251048551093,0.001,WHOQOL,Índice global descriptivo
+spearman_messages_stress_improvement_experimental,0.021,0.005,Uso,No significativa; p=.728
+spearman_active_weeks_stress_improvement_experimental,0.002,0.005,Uso,No significativa; p=.975
+usage_regression_r2,0.0036,0.0005,Uso,Modelo dentro del experimental
+usage_regression_adjusted_r2,-0.0108,0.0005,Uso,Modelo dentro del experimental
+nlp_historical_records,1020,0,PLN histórico,Corpus histórico
+nlp_historical_categories,9,0,PLN histórico,Taxonomía histórica
+nlp_historical_accuracy,0.93,0.001,PLN histórico,Accuracy
+nlp_historical_f1_macro,0.931,0.001,PLN histórico,F1 macro
+nlp_historical_roc_auc,0.95,0.001,PLN histórico,ROC-AUC
+nlp_operational_records,6463,0,PLN operativo,Control técnico
+nlp_operational_categories,7,0,PLN operativo,Taxonomía operativa
+nlp_operational_accuracy,1.0,0.0001,PLN operativo,Control técnico; no validación externa
