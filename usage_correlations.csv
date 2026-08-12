@@ -1,3 +1,0 @@
-﻿sample,predictor,outcome,spearman_rho,p_value,n,interpretation
-Experimental,messages,stress_improvement,0.021,0.728,281,No significativa
-Experimental,active_weeks,stress_improvement,0.002,0.975,281,No significativa
